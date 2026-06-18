@@ -1,0 +1,5569 @@
+GAME
+{
+	version = 1.12.5
+	Title = Space Race! (SCIENCE_SANDBOX)
+	Description = No description available.
+	linkURL = 
+	linkCaption = 
+	Mode = SCIENCE_SANDBOX
+	Status = 1
+	Seed = 1809774799
+	ROCSeed = 481625151
+	scene = 5
+	editor = None
+	flag = 000_USITools/Flags/CatFlag
+	launchID = 1
+	defaultVABLaunchSite = LaunchPad
+	defaultSPHLaunchSite = Runway
+	modded = True
+	envInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe -single-instance - 
+	versionFull = 1.12.5.3190 (WindowsPlayer x64)
+	versionCreated = 1.12.5.3190 (WindowsPlayer x64)
+	persistentTimestamp = 2026-06-18T18:57:06.4740328Z
+	RemovedROCs
+	{
+	}
+	CometNames
+	{
+	}
+	PARAMETERS
+	{
+		preset = Custom
+		FLIGHT
+		{
+			CanQuickSave = True
+			CanQuickLoad = True
+			CanAutoSave = True
+			CanUseMap = True
+			CanSwitchVesselsNear = True
+			CanSwitchVesselsFar = True
+			CanTimeWarpHigh = True
+			CanTimeWarpLow = True
+			CanEVA = True
+			CanIVA = True
+			CanBoard = True
+			CanRestart = False
+			CanLeaveToEditor = False
+			CanLeaveToTrackingStation = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = True
+		}
+		EDITOR
+		{
+			CanSave = True
+			CanLoad = True
+			CanStartNew = True
+			CanLaunch = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+			startUpMode = 0
+			craftFileToLoad = 
+		}
+		TRACKINGSTATION
+		{
+			CanFlyVessel = True
+			CanAbortVessel = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		SPACECENTER
+		{
+			CanGoInVAB = True
+			CanGoInSPH = True
+			CanGoInTrackingStation = True
+			CanLaunchAtPad = True
+			CanLaunchAtRunway = True
+			CanGoToAdmin = True
+			CanGoToAstronautC = True
+			CanGoToMissionControl = True
+			CanGoToRnD = True
+			CanSelectFlag = True
+			CanLeaveToMainMenu = True
+		}
+		DIFFICULTY
+		{
+			AutoHireCrews = False
+			MissingCrewsRespawn = False
+			RespawnTimer = 7200
+			BypassEntryPurchaseAfterResearch = True
+			AllowStockVessels = False
+			IndestructibleFacilities = False
+			ResourceAbundance = 1
+			ReentryHeatScale = 1
+			EnableCommNet = True
+			AllowOtherLaunchSites = True
+			persistKerbalInventories = False
+		}
+		CAREER
+		{
+			TechTreeUrl = GameData\HideEmptyTechTreeNodes\Resources\HETTN.TechTree
+			StartingFunds = 25000
+			StartingScience = 0
+			StartingReputation = 0
+			FundsGainMultiplier = 1
+			RepGainMultiplier = 1
+			ScienceGainMultiplier = 1
+			FundsLossMultiplier = 1
+			RepLossMultiplier = 1
+			RepLossDeclined = 1
+		}
+		HETTNCustomParams_Zoom
+		{
+			zoomMaxParam = 100
+			zoomMinParam = 60
+			zoomSpeedParam = 5
+			zoomMax = 1
+			zoomMin = 0.6
+			zoomSpeed = 0.05
+		}
+		DifficultyWindProbability
+		{
+			probabilityHighWinds = 0.1
+			probabilityMidWinds = 0.55
+			probabilityLowWinds = 0.25
+			probabilityNoWinds = 0.15
+		}
+		TUGameSettings
+		{
+			customEditorReflections = True
+			reflectionResolution = 4
+			recolorGUIWidth = 400
+			recolorGUIHeight = 540
+			recolorGUITopSectionHeight = 100
+			debug = False
+		}
+		TST_SettingsParms
+		{
+			ChemwinSml = 250
+			ChemwinLge = 500
+			TelewinSml = 300
+			TelewinLge = 600
+			maxChemCamContracts = 3
+			photoOnlyChemCamContracts = True
+			ZoomSkyBox = True
+			UseAppLauncher = True
+			ToolTips = True
+			debugging = False
+		}
+		SUASettingsTarget
+		{
+			targetDistance = True
+			targetName = True
+			targetDockportAngles = Roll
+			targetAngle1Decimal = False
+			targetColor = False
+			targetSpeedSplit = No
+		}
+		USI_ConverterOptions
+		{
+			ConverterSwapRequiresEVA = True
+			ConverterSwapRequiresRepairSkill = True
+			ConverterSwapCostMultiplier = 1
+		}
+		SUASettingsSurface
+		{
+			rover = km/h
+			aircraft = Mach number
+			radar = True
+			ias = False
+			overrideFAR = True
+			color_vertical = False
+			split_vertical_mode = Only descending landers
+			rover_for_all = False
+		}
+		KKCustomParameters1
+		{
+			blank1 = 
+			maxEditorVisRange = 25000
+			enableInflightHighlight = False
+			blank11 = 
+			blank01 = 
+			spawnPreviewModels = True
+			useLegacyCamera = False
+			useCamUnderdroudColors = False
+			newInstanceEnum = INTERNAL
+			newInstancePath = KerbalKonstructs/NewInstances
+			blank02 = 
+			blank2 = 
+			DebugMode = False
+		}
+		ScienceRelayParameters
+		{
+			requireMPL = True
+			requireRelay = True
+			transmissionBoost = True
+			requireMPLForBoost = False
+			transmissionPenalty = 0.25
+			showTransmitWarning = False
+		}
+		PreferencesScience
+		{
+			transmitScience = True
+			analyzeSamples = True
+			transmitFactor = 1.5
+			sampleTransfer = True
+		}
+		KSPWheelScaleSettings
+		{
+			partMassScalingPower = 3
+			partCostScalingPower = 3
+			wheelMassScalingPower = 3
+			wheelMaxSpeedScalingPower = 1
+			wheelMaxLoadScalingPower = 3
+			rollingResistanceScalingPower = 1
+			motorTorqueScalingPower = 3
+			motorPowerScalingPower = 3
+			motorMaxRPMScalingPower = 0
+		}
+		PreferencesReliability
+		{
+			highlights = True
+			mtbfFailures = True
+			criticalChance = 0.05
+			safeModeChance = 0.25
+			incentiveRedundancy = True
+			engineFailures = True
+			requireRepairKits = False
+			ignitionFailureChance = 0.15
+			engineOperationFailureChance = 0.15
+		}
+		SR2
+		{
+			RecoveryMod = 75
+			RecoveryModifier = 0.75
+			HighCut = 12
+			GlobalMod = 100
+			GlobalModifier = 1
+			DistanceOver = 1
+			DistanceOverride = 0.01
+			DreVelocity = 2000
+			recoveryModifier = 0.75
+			CutoffVelocity = 10
+			HighCutField = 12
+			LowCut = 6
+			globalModifier = 1
+			distanceOverride = 0.01
+			DeadlyReentryMaxVelocity = 2000
+			MinTWR = 1
+		}
+		PreferencesRadiation
+		{
+			lifetime = False
+			stormFrequency = 0.4
+			stormDurationHours = 2
+			stormRadiation = 5
+			shieldingEfficiency = 0.9
+		}
+		KURSSettings_2
+		{
+			altOverlay = False
+		}
+		SUASettingsOrbit
+		{
+			orbit_ApPe = True
+			orbit_time = False
+			StringEmpty = 
+			StringCommon = 
+			EVAName = True
+			EVAProp = True
+			lightSpeed = False
+			lightSpeedKerbal = False
+		}
+		PreferencesMessages
+		{
+			ec = True
+			supply = True
+			signal = False
+			malfunction = True
+			storm = False
+			script = False
+			stockMessages = False
+			messageLength = 4
+		}
+		HETTNCustomParams_Nodes
+		{
+			researchRequirements = Default
+			forceHideUnresearchable = True
+			forceHideEmpty = True
+			forceHideManual = False
+			propagateScience = Default
+			shiftVertically = False
+			shiftHorizontally = False
+		}
+		HETTNCustomParams_Misc
+		{
+			debugging = False
+		}
+		WPDebug
+		{
+			logCAV = False
+			logUpdate = False
+			logUpdateGeometry = False
+			logUpdateMaterials = False
+			logMeshReferences = False
+			logCheckMeshFilter = False
+			logPropertyWindow = False
+			logFlightSetup = False
+			logFieldSetup = False
+			logFuel = False
+			logLimits = False
+			logEvents = False
+		}
+		NE_Settings
+		{
+			KAC_Enabled = True
+			KAC_AlarmMargin = 0
+		}
+		DifficultyGeneralWind
+		{
+			windInterval = 2.5
+		}
+		JanitorsClosetSettings
+		{
+			toolbarEnabled = True
+			toolbarPopupsEnabled = True
+			editorMenuPopupEnabled = True
+			hoverTimeout = 0.5
+			enabeHoverOnToolbarIcons = True
+			useKerboKatzToolbar = True
+			buttonIdent = False
+			buttonTooltip = True
+			showMod = True
+			debug = False
+		}
+		HangerExtender
+		{
+			scalingFactor = 5
+			changeHotkey = False
+			newHotKey = KeypadMultiply
+			hideHangars = True
+			BuildingStartMaxSize = False
+			advancedDebug = False
+			startInExternalView = True
+		}
+		SR1
+		{
+			SREnabled = True
+			UseDistanceOverride = False
+			FlatRateModel = False
+			UseDREVelocity = True
+			PreRecover = True
+			ShowFailureMessages = True
+			ShowSuccessMessages = True
+			PoweredRecovery = True
+			RecoverClamps = True
+			UseUpgrades = True
+			autocalcDelaySec = 0.5
+		}
+		DifficultyGeneral
+		{
+			isBreakable = True
+			requireMinSpeed = True
+			requireFullControl = False
+		}
+		KJRSettings
+		{
+		}
+		KURSSettings_1
+		{
+			_dist2500 = True
+			_dist9999 = False
+			scaleToCareer = False
+			FCS = False
+			showCross = True
+			showSummaryData = True
+			showData = True
+			showDials = True
+			defaultCamWindowSize = 2
+			useKSPskin = False
+			hideOnF2 = True
+			useCamObj = True
+		}
+		KKCustomParameters0
+		{
+			blank0 = 
+			enableRT = False
+			enableCommNet = False
+			blank01 = 
+			blank1 = 
+			disableRemoteBaseOpening = False
+			facilityUseRange = 300
+			disableRemoteRecovery = False
+			blank03 = 
+			blank3 = 
+			blank04 = 
+			toggleIconsWithBB = False
+			soundMasterVolume = 1
+			focusLastLaunchSite = False
+		}
+		SystemHeatGameSettings_ReactorDamage
+		{
+			reactorDamage = True
+			reactorRepairs = True
+			engineerLevel = 5
+			repairPerKit = 0.25
+			repairThreshold = 0.1
+			repairMax = 0.75
+		}
+		SystemHeatGameSettings_NuclearFuel
+		{
+			requireEngineersForTransfer = True
+			engineerLevel = 3
+		}
+		KPBSSettings
+		{
+			functionFilter = True
+		}
+		FarFutureTechnologiesSettings_EngineDamage
+		{
+			damageFacilities = True
+			facilityDamageScale = 1
+		}
+		Settings
+		{
+			hideUnpurchased = True
+			setAdvanced = True
+			replaceFbM = True
+			categoryDefault = 
+			subCategoryDefault = 
+		}
+		USI_DifficultyOptions
+		{
+			ConsumeMachinery = True
+		}
+		BPB_Options
+		{
+			useKSPskin = True
+			activeAtLaunch = False
+			activeInVAB = False
+			activeInSPH = False
+			allowChangeInFlight = False
+		}
+		BPB_Options2
+		{
+			useAtmoPercentage = False
+			explosionDetection = False
+			negativeVelDetection = False
+			defaultNegVel = -40
+			highGDetection = False
+			defaultG = 6
+			exceedingAoA = False
+			ignoreAoAAboveAltitudeKm = 100
+			ignoreAoAAboveAltitudePercentage = 50
+			maxAoA = 20
+			disableAfter = 600
+			disableAtAltitudeKm = 100
+			disableAtAltitudePercent = 66
+			actionAfterTimeout = 0
+			maxTimeoutActionG = 10
+			postAbortAction = 0
+			postAbortDelay = 10
+			delayPostAbortUntilSafe = False
+		}
+		KSPWheelWearSettings
+		{
+			stressDamageMultiplier = 1
+			speedDamageMultiplier = 1
+			slipDamageMultiplier = 1
+			motorDamageMultiplier = 1
+			motorHeatMultiplier = 1
+		}
+		SystemHeatGameSettings_Boiloff
+		{
+			boiloffEnabled = True
+			boiloffRate = 1
+		}
+		WPSensitivity
+		{
+			mouseSensitivity = 4
+		}
+		BPB_UI_Options
+		{
+			pawWindow = False
+			useToolbar = False
+		}
+		kOSConnectivityParameters
+		{
+			version = 0
+			knownHandlerList = CommNetConnectivityManager,PermitAllConnectivityManager
+			connectivityHandler = PermitAllConnectivityManager
+		}
+		kOSCustomParameters
+		{
+			InstructionsPerUpdate = 200
+			migrated = True
+			version = 0
+			useCompressedPersistence = True
+			showStatistics = False
+			startOnArchive = False
+			obeyHideUi = True
+			enableSafeMode = True
+			audibleExceptions = True
+			verboseExceptions = True
+			clobberBuiltIns = False
+			useBlizzyToolbarOnly = False
+			debugEachOpcode = False
+		}
+		CommNetParams
+		{
+			requireSignalForControl = False
+			plasmaBlackout = True
+			rangeModifier = 1
+			DSNModifier = 1
+			occlusionMultiplierVac = 1
+			occlusionMultiplierAtm = 1
+			enableGroundStations = True
+		}
+		PreferencesComfort
+		{
+			stressBreakdowns = True
+			stressBreakdownRate = 0.25
+			livingSpace = 20
+			firmGround = 0.1
+			exercise = 0.2
+			notAlone = 0.3
+			callHome = 0.2
+			panorama = 0.1
+			plants = 0.1
+		}
+		CTB
+		{
+			showPopup = False
+			focusFollowsclick = True
+			global = True
+			cleanupDelay = 0.5
+		}
+		KKCustomParameters2
+		{
+			launchFromAnySite = False
+			disableCareerStrategyLayer = False
+			discoverAllBases = False
+			dontRemoveStockCommNet = False
+		}
+		KSPWheelSettings
+		{
+			manualGearing = True
+			wheelDustEffects = True
+			wheelDustPower = 1
+			wearType = SIMPLE
+			debugMode = False
+			enableFrictionControl = False
+			globalFrictionAdjustment = 1
+		}
+		BackgroundResources_SettingsParms
+		{
+			backgroundresources = True
+			ProduceResources = True
+			ConsumeResources = True
+			IncludeGenericResourceConverters = False
+		}
+		KolonyACOptions
+		{
+			CustomKerbonauts = True
+			KolonistHiring = True
+			KolonistRescue = False
+			VeteranRescue = True
+			AlternateCoreCost = True
+			CoreCost = 50000
+			AlternateKolonistCost = True
+			KolonistCost = 25000
+			CostCap = True
+			MaxCost = 500000
+		}
+		AR
+		{
+			useKSPSkin = True
+			saveWinPos = True
+		}
+		FarFutureTechnologiesSettings_AntimatterContainment
+		{
+			containmentEnabled = True
+			detonationRate = 1
+			volatility = 1
+		}
+		FarFutureTechnologiesSettings_Antimatter
+		{
+			antimatterCostsScience = True
+			antimatterScienceCostPerUnit = 1
+		}
+		AeroFxParameters
+		{
+			enableAeroFx = True
+			maxRibbonCount = 4
+			machThresholdMode = 0
+			useLightAware = True
+			maneuverOnly = False
+			debugLogging = False
+		}
+		AdvancedParams
+		{
+			EnableKerbalExperience = True
+			ImmediateLevelUp = False
+			AllowNegativeCurrency = False
+			PressurePartLimits = True
+			GPartLimits = True
+			GKerbalLimits = True
+			KerbalGToleranceMult = 1
+			ResourceTransferObeyCrossfeed = False
+			ActionGroupsAlways = False
+			BuildingImpactDamageMult = 0.05
+			PartUpgradesInSandbox = False
+			PartUpgradesInCareer = True
+			PartUpgradesInMission = False
+			EnableFullSASInSandbox = False
+			EnableFullSASInMissions = False
+		}
+		Options
+		{
+			needsECtoStart = False
+			consumesEC = False
+			autoSwitch = True
+			coloredPAW = True
+			_InGameMail = True
+			globalScalingFactor = 1
+			responseTime = 100
+			powerGraph = False
+		}
+		MissionParamsGeneral
+		{
+			enableFunding = False
+			startingFunds = 100000
+			spacer = 
+			enableKerbalLevels = False
+			kerbalLevelPilot = 4
+			kerbalLevelScientist = 4
+			kerbalLevelEngineer = 4
+			spacer2 = 
+			preventVesselRecovery = False
+		}
+		MissionParamsExtras
+		{
+			facilityOpenAC = False
+			astronautHiresAreFree = True
+			spacer = 
+			facilityOpenEditor = False
+			launchSitesOpen = True
+			spacer2 = 
+			cheatsEnabled = False
+		}
+		MissionParamsFacilities
+		{
+			facilityLevelAdmin = 3
+			facilityLevelAC = 3
+			facilityLevelLaunchpad = 3
+			facilityLevelMC = 3
+			facilityLevelRD = 3
+			facilityLevelRunway = 3
+			facilityLevelSPH = 3
+			facilityLevelTS = 3
+			facilityLevelVAB = 3
+		}
+		CactiSettings
+		{
+			DebugMode = False
+			SunDamage = True
+			GyroDecay = True
+			AsteroidSpawner = True
+			alarmTimeInAdvance = 300
+		}
+		PM
+		{
+			EnabledForSave = True
+		}
+		NRAPCustomParams
+		{
+			size0 = 0.625
+			size1 = 0
+			size2 = 1.25
+			size3 = 1.5
+			size4 = 1.875
+			size5 = 2.5
+			size6 = 3.125
+			size7 = 3.75
+			size8 = 5
+			size9 = 7.5
+			resetSizes = False
+		}
+		WOLF_GameParameters
+		{
+			ResourceAbundanceMultiplier = 1
+			DepotFundsRewardHomeworld = 10000
+			DepotFundsReward = 50000
+			TransportFundsReward = 10000
+			SurveyScienceRewardHomeworld = 50
+			SurveyScienceReward = 250
+			CrewReputationRewardHomeworld = 5
+			CrewReputationReward = 10
+		}
+		TC
+		{
+			showStockTooltips = True
+			hoverTimeout = 0.5
+			allowAllToolbarButtonsHidden = False
+			debugMode = False
+			oldDebugMode = False
+		}
+		BM
+		{
+			debugMode = False
+		}
+		KRASH_Settings
+		{
+			CostAdj = 100
+			CostAdjustment = 1
+			wireframes = False
+			defaultAtmoStartingAltitude = 75000
+			defaultNoAtmoStartingAltitude = 10000
+			costAdjustment = 1
+			noChargeDuringTimewarp = True
+		}
+		HideEmptyFiltersParams
+		{
+			countUnpurchasedPartsAsUnavailable = False
+			hideUnpurchasedPartsInVAB = False
+		}
+		Konstruction_GameParameters
+		{
+			resourceTransferAllowedRadius = 250
+		}
+		CrewRandRCustomParams
+		{
+			VacationScalar = 10
+			enabled = True
+			ShortMissionMaxLength = 4
+			MinimumVacationHours = 1
+			MaximumVacationHours = 6
+			AssignCrews = True
+			AssignAllCrews = True
+			vacationScalar = 0.1
+			MinimumVacationDays = 7
+			MaximumVacationDays = 28
+		}
+	}
+	SCENARIO
+	{
+		name = LastKSC
+		scene = 8
+	}
+	SCENARIO
+	{
+		name = ROCScenario
+		scene = 7
+	}
+	SCENARIO
+	{
+		name = AlarmClockScenario
+		scene = 5, 6, 7, 8
+	}
+	SCENARIO
+	{
+		name = PartUpgradeManager
+		scene = 6, 5, 7
+		UPGRADES
+		{
+			Unlocks
+			{
+			}
+			Enableds
+			{
+			}
+		}
+	}
+	SCENARIO
+	{
+		name = ResourceScenario
+		scene = 7, 8, 5, 6, 21
+		RESOURCE_SETTINGS
+		{
+			GameSeed = 1900614879
+			ROCMissionSeed = 1900614879
+			MaxDeltaTime = 21600
+		}
+	}
+	SCENARIO
+	{
+		name = ScenarioNewGameIntro
+		scene = 5, 6, 8
+		kscComplete = True
+		editorComplete = True
+		tsComplete = False
+	}
+	SCENARIO
+	{
+		name = ProgressTracking
+		scene = 6, 7, 8, 5
+		Progress
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = ResearchAndDevelopment
+		scene = 7, 8, 5, 6
+		sci = 0
+		Tech
+		{
+			id = start
+			state = Available
+			cost = 1
+			part = compChip.KER.build
+			part = compChip.KER.flight
+			part = Engineer7500
+			part = EngineerChip
+			part = kerbalism-antenna
+			part = NE.KeminiTEST
+			part = basicFin
+			part = evaChute
+			part = trussPiece1x
+			part = nfex-battery-mini-1
+			part = seatExternalCmd
+			part = probeCoreSphere.v2
+			part = Mite
+			part = sensorThermometer
+			part = flagPartFlat
+			part = parachuteRadial
+		}
+	}
+	SCENARIO
+	{
+		name = VesselRecovery
+		scene = 5, 7, 8, 6
+	}
+	SCENARIO
+	{
+		name = KerbalInventoryScenario
+		scene = 7, 8, 5, 21, 6
+	}
+	SCENARIO
+	{
+		name = ScenarioAchievements
+		scene = 7, 8, 5, 6
+	}
+	SCENARIO
+	{
+		name = ScenarioCustomWaypoints
+		scene = 7, 8, 21
+	}
+	SCENARIO
+	{
+		name = ScenarioDestructibles
+		scene = 5, 7, 6, 8
+		SpaceCenter/Administration/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/AstronautComplex/Facility/building
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_launchPad
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_sphereTank
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/ksp_pad_waterTower
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/LaunchPadMedium/KSCFlagPoleLaunchPad
+		{
+			intact = True
+		}
+		SpaceCenter/MissionControl/Facility/building
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/SmallLab
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/CentralBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/MainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/CornerLab
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/WindTunnel
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/Observatory
+		{
+			intact = True
+		}
+		SpaceCenter/ResearchAndDevelopment/Facility/SideLab
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SE
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NE
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_NW
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/model_runway_new_v43/runway_light_SW
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/End09
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/End27
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section1
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section2
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section3
+		{
+			intact = True
+		}
+		SpaceCenter/Runway/Facility/Section4
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/Tank
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/ksp_pad_waterTower
+		{
+			intact = True
+		}
+		SpaceCenter/SpaceplaneHangar/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/dish_array/dish_south
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/dish_array/dish_north
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/dish_array/dish_east
+		{
+			intact = True
+		}
+		SpaceCenter/TrackingStation/Facility/MainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/ksp_pad_cylTank
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/Tank
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/mainBuilding
+		{
+			intact = True
+		}
+		SpaceCenter/VehicleAssemblyBuilding/Facility/PodMemorial
+		{
+			intact = True
+		}
+		SpaceCenter/Mesh/Facility
+		{
+			intact = True
+		}
+	}
+	SCENARIO
+	{
+		name = SentinelScenario
+		scene = 7, 8, 5
+		NextSpawnTime = 93719.502430498833
+	}
+	SCENARIO
+	{
+		name = CommNetScenario
+		scene = 7, 8, 5, 6
+	}
+	SCENARIO
+	{
+		name = DeployedScience
+		scene = 7, 8, 5, 6
+		ScienceTimeDelay = 60
+		DataSendFailedTimeDelay = 600
+		SCIENCECLUSTERS
+		{
+		}
+		DIMINISHINGRETURNS
+		{
+			ENTRY
+			{
+				ExpCount = 1
+				Rate = 1
+			}
+			ENTRY
+			{
+				ExpCount = 2
+				Rate = 0.200000003
+			}
+			ENTRY
+			{
+				ExpCount = 3
+				Rate = 0.349999994
+			}
+			ENTRY
+			{
+				ExpCount = 4
+				Rate = 0.449999988
+			}
+			ENTRY
+			{
+				ExpCount = 5
+				Rate = 0.5
+			}
+		}
+		SEISMICENERGY
+		{
+			MinimumEnergyRequired = 3000
+			SeismicScienceProcessingDelay = 3
+			ENTRY
+			{
+				BodyName = Mercury
+				Energy = 1.64909199E+10
+			}
+			ENTRY
+			{
+				BodyName = Venus
+				Energy = 2.43157631E+11
+			}
+			ENTRY
+			{
+				BodyName = Earth
+				Energy = 2.98353623E+11
+			}
+			ENTRY
+			{
+				BodyName = Moon
+				Energy = 3.66976051E+09
+			}
+			ENTRY
+			{
+				BodyName = Mars
+				Energy = 3.20571658E+10
+			}
+			ENTRY
+			{
+				BodyName = Phobos
+				Energy = 530.504944
+			}
+			ENTRY
+			{
+				BodyName = Deimos
+				Energy = 71.9728241
+			}
+			ENTRY
+			{
+				BodyName = Io
+				Energy = 4.46101504E+09
+			}
+			ENTRY
+			{
+				BodyName = Europa
+				Energy = 2.39725952E+09
+			}
+			ENTRY
+			{
+				BodyName = Ganymede
+				Energy = 7.40107366E+09
+			}
+			ENTRY
+			{
+				BodyName = Callisto
+				Energy = 5.37371955E+09
+			}
+			ENTRY
+			{
+				BodyName = Amalthea
+				Energy = 103911.258
+			}
+			ENTRY
+			{
+				BodyName = Thebe
+				Energy = 21481.6543
+			}
+			ENTRY
+			{
+				BodyName = Mimas
+				Energy = 1873895.25
+			}
+			ENTRY
+			{
+				BodyName = Enceladus
+				Energy = 5397795
+			}
+			ENTRY
+			{
+				BodyName = Tethys
+				Energy = 30846616
+			}
+			ENTRY
+			{
+				BodyName = Dione
+				Energy = 54727820
+			}
+			ENTRY
+			{
+				BodyName = Rhea
+				Energy = 115226392
+			}
+			ENTRY
+			{
+				BodyName = Titan
+				Energy = 6.72016333E+09
+			}
+			ENTRY
+			{
+				BodyName = Hyperion
+				Energy = 277313.156
+			}
+			ENTRY
+			{
+				BodyName = Iapetus
+				Energy = 90203656
+			}
+			ENTRY
+			{
+				BodyName = Phoebe
+				Energy = 414760.781
+			}
+			ENTRY
+			{
+				BodyName = Ariel
+				Energy = 62472636
+			}
+			ENTRY
+			{
+				BodyName = Umbriel
+				Energy = 63692652
+			}
+			ENTRY
+			{
+				BodyName = Titania
+				Energy = 169868032
+			}
+			ENTRY
+			{
+				BodyName = Oberon
+				Energy = 153685200
+			}
+			ENTRY
+			{
+				BodyName = Miranda
+				Energy = 3233171.25
+			}
+			ENTRY
+			{
+				BodyName = Puck
+				Energy = 95418.5313
+			}
+			ENTRY
+			{
+				BodyName = Triton
+				Energy = 1.06856147E+09
+			}
+			ENTRY
+			{
+				BodyName = Nereid
+				Energy = 1783418.88
+			}
+			ENTRY
+			{
+				BodyName = Proteus
+				Energy = 1161470.25
+			}
+			ENTRY
+			{
+				BodyName = Ceres
+				Energy = 46880612
+			}
+			ENTRY
+			{
+				BodyName = Pallas
+				Energy = 10293709
+			}
+			ENTRY
+			{
+				BodyName = Vesta
+				Energy = 12940303
+			}
+			ENTRY
+			{
+				BodyName = Psyche
+				Energy = 1144023
+			}
+			ENTRY
+			{
+				BodyName = Ida
+				Energy = 33571.3281
+			}
+			ENTRY
+			{
+				BodyName = Dactyl
+				Energy = 2.39795208
+			}
+			ENTRY
+			{
+				BodyName = Eros
+				Energy = 5345.03516
+			}
+			ENTRY
+			{
+				BodyName = Ryugu
+				Energy = 0.359692812
+			}
+			ENTRY
+			{
+				BodyName = Pluto
+				Energy = 650908544
+			}
+			ENTRY
+			{
+				BodyName = Charon
+				Energy = 79251488
+			}
+			ENTRY
+			{
+				BodyName = Nix
+				Energy = 1298.89075
+			}
+			ENTRY
+			{
+				BodyName = Hydra
+				Energy = 1503.71582
+			}
+			ENTRY
+			{
+				BodyName = Kerberos
+				Energy = 54.9530678
+			}
+			ENTRY
+			{
+				BodyName = Styx
+				Energy = 25.7280273
+			}
+			ENTRY
+			{
+				BodyName = Arrokoth
+				Energy = 37.3930664
+			}
+		}
+	}
+	SCENARIO
+	{
+		name = DiscoverableObjects
+		scene = 7, 8, 5
+	}
+	SCENARIO
+	{
+		name = KerbalKonstructsSettings
+		scene = 5, 6, 7, 8
+		initialized = False
+		savetime = 61.98000000000409
+		useUUID = True
+		KKSettings
+		{
+			mapShowOpen = True
+			mapShowClosed = False
+			mapShowGroundStation = False
+			mapShowHelipads = True
+			mapShowRunways = True
+			mapShowRocketbases = True
+			mapShowWaterLaunch = True
+			mapShowOther = False
+			mapShowRecovery = False
+			defaultVABlaunchsite = LaunchPad
+			defaultSPHlaunchsite = Runway
+			lastLaunchSiteUsed = LaunchPad
+		}
+		Facilities
+		{
+		}
+		LaunchSites
+		{
+			LAUNCHPAD
+			{
+				favouriteSite = No
+				MissionCount = 0
+				MissionLog = No Log
+				isOpen = True
+			}
+			RUNWAY
+			{
+				favouriteSite = No
+				MissionCount = 0
+				MissionLog = No Log
+				isOpen = True
+			}
+		}
+		KKMapDecals
+		{
+		}
+		KKGroups
+		{
+		}
+		KKBuildings
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = TSTProgressTracker_Trap
+		scene = 7, 8, 5
+	}
+	SCENARIO
+	{
+		name = Scenario
+		scene = 7, 8, 5
+		CactEyeOptics
+		{
+			OccultationRecord
+			{
+				time = 609243
+				type = Planet
+				occType = 2
+				referencebody = Jupiter
+				body = Europa
+			}
+			OccultationRecord
+			{
+				time = 592051
+				type = Planet
+				occType = 2
+				referencebody = Saturn
+				body = Vesta
+			}
+			OccultationRecord
+			{
+				time = 87702
+				type = Planet
+				occType = 2
+				referencebody = Earth
+				body = Ida
+			}
+			OccultationRecord
+			{
+				time = 579965
+				type = Planet
+				occType = 2
+				referencebody = Mars
+				body = Ryugu
+			}
+			OccultationRecord
+			{
+				time = 264256
+				type = Planet
+				occType = 2
+				referencebody = Ida
+				body = Ryugu
+			}
+			OccultationRecord
+			{
+				time = 406350
+				type = Planet
+				occType = 2
+				referencebody = Uranus
+				body = Mercury
+			}
+			OccultationRecord
+			{
+				time = 121629
+				type = Planet
+				occType = 2
+				referencebody = Neptune
+				body = Triton
+			}
+			OccultationRecord
+			{
+				time = 580296
+				type = Planet
+				occType = 2
+				referencebody = Pluto
+				body = Mars
+			}
+		}
+	}
+	SCENARIO
+	{
+		name = CrewRandRSettings
+		scene = 6, 7, 5, 8
+		CrewList
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = DMScienceScenario
+		scene = 7, 5, 8, 6
+		Asteroid_Science
+		{
+		}
+		Anomaly_Records
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = KerbalConstructionTimeData
+		scene = 6, 7, 5, 8
+		KCT_DataStorage
+		{
+			enabledForSave = True
+			activeKSC = us_cape_canaveral
+			SalesFigures = 0
+			SciPoints = -1
+			UpgradesResetCounter = 1
+			TechUpgrades = 0
+			SavedUpgradePointsPreAPI = 0
+			VABUpgrades
+			{
+				Item = 0
+			}
+			SPHUpgrades
+			{
+				Item = 0
+			}
+			RDUpgrades
+			{
+				Item = 0
+				Item = 0
+			}
+			PurchasedUpgrades
+			{
+				Item = 0
+				Item = 0
+			}
+		}
+		KSC
+		{
+			KSCName = us_cape_canaveral
+			ActiveLPID = 0
+			VABUpgrades
+			{
+				Upgrade = 0
+			}
+			SPHUpgrades
+			{
+				Upgrade = 0
+			}
+			RDUpgrades
+			{
+				Upgrade = 0
+				Upgrade = 0
+			}
+			VABList
+			{
+			}
+			SPHList
+			{
+			}
+			VABWarehouse
+			{
+			}
+			SPHWarehouse
+			{
+			}
+			KSCTech
+			{
+			}
+			VABPlans
+			{
+			}
+			SPHPlans
+			{
+			}
+			Recon_Rollout
+			{
+			}
+			Airlaunch_Prep
+			{
+			}
+			LaunchPads
+			{
+				KCT_LaunchPad
+				{
+					level = 1
+					name = LaunchPad
+					DestructionState
+					{
+					}
+				}
+			}
+			VABRateCache
+			{
+				rate = 0.10000000000000001
+				rate = 0
+			}
+			SPHRateCache
+			{
+				rate = 0.10000000000000001
+				rate = 0
+			}
+		}
+		TechList
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = InterVesselManager
+		scene = 7, 5, 8
+	}
+	SCENARIO
+	{
+		name = KRASHPersistent
+		scene = 5, 6, 7, 8, 5
+		shelterSimulationActive = False
+		selectedCostsCfg = * Custom
+	}
+	SCENARIO
+	{
+		name = HallOfFameScenarioModule
+		scene = 7, 8, 5
+	}
+	SCENARIO
+	{
+		name = KPBSScenario
+		scene = 5
+	}
+	SCENARIO
+	{
+		name = UnloadedResources
+		scene = 5, 7, 8
+		BGRSettings
+		{
+			backgroundresources = True
+			ProduceResources = True
+			ConsumeResources = True
+			IncludeGenericResourceConverters = False
+		}
+		BACKGROUNDRESOURCES
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = SCANcontroller
+		scene = 7, 5, 8
+		storageUpgraded = True
+		mainMapVisible = False
+		mainMapColor = True
+		mainMapTerminator = False
+		mainMapDisplayMode = Terrain
+		mainMapMinimized = False
+		bigMapVisible = False
+		bigMapColor = True
+		bigMapTerminator = False
+		bigMapGrid = True
+		bigMapOrbit = True
+		bigMapWaypoint = True
+		bigMapAnomaly = True
+		bigMapFlag = True
+		bigMapLegend = True
+		bigMapResourceOn = False
+		bigMapProjection = Rectangular
+		bigMapType = Altimetry
+		bigMapResource = Ore
+		bigMapBody = Kerbin
+		zoomMapVesselLock = False
+		zoomMapColor = True
+		zoomMapTerminator = False
+		zoomMapOrbit = True
+		zoomMapIcons = True
+		zoomMapLegend = True
+		zoomMapResourceOn = False
+		zoomMapType = Altimetry
+		zoomMapResource = Ore
+		zoomMapState = 0
+		zoomMapRefresh = 0
+		zoomMapZoomPersist = False
+		zoomMapZoom = 10
+		overlaySelection = 0
+		overlayResource = Ore
+		Scanners
+		{
+		}
+		Progress
+		{
+			Body
+			{
+				Name = Earth
+				Disabled = False
+				MinHeightRange = -2740
+				MaxHeightRange = 2160
+				ClampHeight = 0
+				PaletteName = Default
+				PaletteSize = 7
+				PaletteReverse = False
+				PaletteDiscrete = False
+				Map = CAABAAAA-----0AHQAAAD0AIBUD6AQACAOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AOD-AODlAAEACw__
+			}
+		}
+		SCANResources
+		{
+			ResourceType
+			{
+				Resource = Ore
+				MinColor = 0.25,0.119999997,0.829999983,1
+				MaxColor = 0.790000021,0,0.939999998,1
+				Transparency = 20
+				MinMaxValues = 0|0.500|15.000,1|0.500|15.000,2|0.500|15.000,3|0.500|15.000,4|0.500|15.000,5|0.500|15.000,6|0.500|15.000,7|0.500|15.000,8|0.500|15.000,9|0.500|15.000,10|0.500|15.000,11|0.500|15.000,12|0.500|15.000,13|0.500|15.000,14|0.500|15.000,15|0.500|15.000,16|0.500|15.000,17|0.500|15.000,18|0.500|15.000,19|0.500|15.000,20|0.500|15.000,21|0.500|15.000,22|0.500|15.000,23|0.500|15.000,24|0.500|15.000,25|0.500|15.000,26|0.500|15.000,27|0.500|15.000,28|0.500|15.000,29|0.500|15.000,30|0.500|15.000,31|0.500|15.000,32|0.500|15.000,33|0.500|15.000,34|0.500|15.000,35|0.500|15.000,36|0.500|15.000,37|0.500|15.000,38|0.500|15.000,39|0.500|15.000,40|0.500|15.000,41|0.500|15.000,42|0.500|15.000,43|0.500|15.000,44|0.500|15.000,45|0.500|15.000,46|0.500|15.000,47|0.500|15.000,48|0.500|15.000,49|0.500|15.000,50|0.500|15.000
+			}
+			ResourceType
+			{
+				Resource = Karbonite
+				MinColor = 0,0.319215685,0.74000001,1
+				MaxColor = 0.75,0.382352889,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.800|2.200,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,1|2.000|3.000,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,17|1.000|6.500,18|1.000|6.500,19|1.000|6.500,20|1.000|6.500,21|1.000|6.500,22|1.000|6.500,23|1.000|6.500,24|1.000|6.500,25|1.000|6.500,26|1.000|6.500,27|1.000|6.500,28|1.000|6.500,29|1.000|6.500,30|1.000|6.500,31|1.000|6.500,32|1.000|6.500,33|1.000|6.500,34|1.000|6.500,35|1.000|6.500,36|1.000|6.500,37|1.000|6.500,38|1.000|6.500,39|1.000|6.500,40|1.000|6.500,41|1.000|6.500,42|1.000|6.500,43|1.000|6.500,44|1.000|6.500,45|1.000|6.500,46|1.000|6.500,47|1.000|6.500,48|1.000|6.500,49|1.000|6.500,50|1.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Minerals
+				MinColor = 0.4762353,0.0432941206,0.920000017,1
+				MaxColor = 0,0.576470971,0.0745100006,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,1|0.000|6.500,2|0.000|6.500,3|0.000|6.500,4|0.000|6.500,5|0.000|6.500,6|0.000|6.500,7|0.000|6.500,8|0.000|6.500,9|0.000|6.500,10|0.000|6.500,11|0.000|6.500,12|0.000|6.500,13|0.000|6.500,14|0.000|6.500,15|0.000|6.500,16|0.000|6.500,17|0.000|6.500,18|0.000|6.500,19|0.000|6.500,20|0.000|6.500,21|0.000|6.500,22|0.000|6.500,23|0.000|6.500,24|0.000|6.500,25|0.000|6.500,26|0.000|6.500,27|0.000|6.500,28|0.000|6.500,29|0.000|6.500,30|0.000|6.500,31|0.000|6.500,32|0.000|6.500,33|0.000|6.500,34|0.000|6.500,35|0.000|6.500,36|0.000|6.500,37|0.000|6.500,38|0.000|6.500,39|0.000|6.500,40|0.000|6.500,41|0.000|6.500,42|0.000|6.500,43|0.000|6.500,44|0.000|6.500,45|0.000|6.500,46|0.000|6.500,47|0.000|6.500,48|0.000|6.500,49|0.000|6.500,50|0.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Substrate
+				MinColor = 0.64188242,0.0138039198,0.879999995,1
+				MaxColor = 0.742823482,0.819999993,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,1|0.000|6.500,2|0.000|6.500,3|0.000|6.500,4|0.000|6.500,5|0.000|6.500,6|0.000|6.500,7|0.000|6.500,8|0.000|6.500,9|0.000|6.500,10|0.000|6.500,11|0.000|6.500,12|0.000|6.500,13|0.000|6.500,14|0.000|6.500,15|0.000|6.500,16|0.000|6.500,17|0.000|6.500,18|0.000|6.500,19|0.000|6.500,20|0.000|6.500,21|0.000|6.500,22|0.000|6.500,23|0.000|6.500,24|0.000|6.500,25|0.000|6.500,26|0.000|6.500,27|0.000|6.500,28|0.000|6.500,29|0.000|6.500,30|0.000|6.500,31|0.000|6.500,32|0.000|6.500,33|0.000|6.500,34|0.000|6.500,35|0.000|6.500,36|0.000|6.500,37|0.000|6.500,38|0.000|6.500,39|0.000|6.500,40|0.000|6.500,41|0.000|6.500,42|0.000|6.500,43|0.000|6.500,44|0.000|6.500,45|0.000|6.500,46|0.000|6.500,47|0.000|6.500,48|0.000|6.500,49|0.000|6.500,50|0.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Uraninite
+				MinColor = 0,0.839215994,0.76078397,1
+				MaxColor = 1,0.235294104,0.0313725509,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,1|0.000|6.500,2|0.000|6.500,3|0.000|6.500,4|0.000|6.500,5|0.000|6.500,6|0.000|6.500,7|0.000|6.500,8|0.000|6.500,9|0.000|6.500,10|0.000|6.500,11|0.000|6.500,12|0.000|6.500,13|0.000|6.500,14|0.000|6.500,15|0.000|6.500,16|0.000|6.500,17|0.000|6.500,18|0.000|6.500,19|0.000|6.500,20|0.000|6.500,21|0.000|6.500,22|0.000|6.500,23|0.000|6.500,24|0.000|6.500,25|0.000|6.500,26|0.000|6.500,27|0.000|6.500,28|0.000|6.500,29|0.000|6.500,30|0.000|6.500,31|0.000|6.500,32|0.000|6.500,33|0.000|6.500,34|0.000|6.500,35|0.000|6.500,36|0.000|6.500,37|0.000|6.500,38|0.000|6.500,39|0.000|6.500,40|0.000|6.500,41|0.000|6.500,42|0.000|6.500,43|0.000|6.500,44|0.000|6.500,45|0.000|6.500,46|0.000|6.500,47|0.000|6.500,48|0.000|6.500,49|0.000|6.500,50|0.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Water
+				MinColor = 0.75999999,0,0.572235286,1
+				MaxColor = 0,0.568784416,0.980000019,1
+				Transparency = 20
+				MinMaxValues = 0|0.000|50.000,1|0.000|50.000,2|0.000|50.000,3|0.000|50.000,4|0.000|50.000,5|0.000|50.000,6|0.000|50.000,7|0.000|50.000,8|0.000|50.000,9|0.000|50.000,10|0.000|50.000,11|0.000|50.000,12|0.000|50.000,13|0.000|50.000,14|0.000|50.000,15|0.000|50.000,16|0.000|50.000,17|0.000|50.000,18|0.000|50.000,19|0.000|50.000,20|0.000|50.000,21|0.000|50.000,22|0.000|50.000,23|0.000|50.000,24|0.000|50.000,25|0.000|50.000,26|0.000|50.000,27|0.000|50.000,28|0.000|50.000,29|0.000|50.000,30|0.000|50.000,31|0.000|50.000,32|0.000|50.000,33|0.000|50.000,34|0.000|50.000,35|0.000|50.000,36|0.000|50.000,37|0.000|50.000,38|0.000|50.000,39|0.000|50.000,40|0.000|50.000,41|0.000|50.000,42|0.000|50.000,43|0.000|50.000,44|0.000|50.000,45|0.000|50.000,46|0.000|50.000,47|0.000|50.000,48|0.000|50.000,49|0.000|50.000,50|0.000|50.000
+			}
+			ResourceType
+			{
+				Resource = MetallicOre
+				MinColor = 0.0599999987,0.0799999982,0.159999996,1
+				MaxColor = 0.529999971,0.469999999,0.370000005,1
+				Transparency = 20
+				MinMaxValues = 0|0.000|15.000,1|0.000|15.000,2|0.000|15.000,3|0.000|15.000,4|0.000|15.000,5|0.000|15.000,6|0.000|15.000,7|0.000|15.000,8|0.000|15.000,9|0.000|15.000,10|0.000|15.000,11|0.000|15.000,12|0.000|15.000,13|0.000|15.000,14|0.000|15.000,15|0.000|15.000,16|0.000|15.000,17|0.000|15.000,18|0.000|15.000,19|0.000|15.000,20|0.000|15.000,21|0.000|15.000,22|0.000|15.000,23|0.000|15.000,24|0.000|15.000,25|0.000|15.000,26|0.000|15.000,27|0.000|15.000,28|0.000|15.000,29|0.000|15.000,30|0.000|15.000,31|0.000|15.000,32|0.000|15.000,33|0.000|15.000,34|0.000|15.000,35|0.000|15.000,36|0.000|15.000,37|0.000|15.000,38|0.000|15.000,39|0.000|15.000,40|0.000|15.000,41|0.000|15.000,42|0.000|15.000,43|0.000|15.000,44|0.000|15.000,45|0.000|15.000,46|0.000|15.000,47|0.000|15.000,48|0.000|15.000,49|0.000|15.000,50|0.000|15.000
+			}
+			ResourceType
+			{
+				Resource = MetalOre
+				MinColor = 0.182784304,0.589999974,0,1
+				MaxColor = 0.0865882412,0.894745111,0.920000017,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|7.500,1|1.000|7.500,2|1.000|7.500,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500,2|1.000|10.000,4|1.000|10.000,1|1.000|7.500,3|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500,17|1.000|7.500,18|1.000|7.500,19|1.000|7.500,20|1.000|7.500,21|1.000|7.500,22|1.000|7.500,23|1.000|7.500,24|1.000|7.500,25|1.000|7.500,26|1.000|7.500,27|1.000|7.500,28|1.000|7.500,29|1.000|7.500,30|1.000|7.500,31|1.000|7.500,32|1.000|7.500,33|1.000|7.500,34|1.000|7.500,35|1.000|7.500,36|1.000|7.500,37|1.000|7.500,38|1.000|7.500,39|1.000|7.500,40|1.000|7.500,41|1.000|7.500,42|1.000|7.500,43|1.000|7.500,44|1.000|7.500,45|1.000|7.500,46|1.000|7.500,47|1.000|7.500,48|1.000|7.500,49|1.000|7.500,50|1.000|7.500
+			}
+			ResourceType
+			{
+				Resource = Rock
+				MinColor = 0.0599999987,0.0799999982,0.159999996,1
+				MaxColor = 0.800000012,0.680000007,0.379999995,1
+				Transparency = 20
+				MinMaxValues = 0|0.000|25.000,1|0.000|25.000,2|0.000|25.000,3|0.000|25.000,4|0.000|25.000,5|0.000|25.000,6|0.000|25.000,7|0.000|25.000,8|0.000|25.000,9|0.000|25.000,10|0.000|25.000,11|0.000|25.000,12|0.000|25.000,13|0.000|25.000,14|0.000|25.000,15|0.000|25.000,16|0.000|25.000,17|0.000|25.000,18|0.000|25.000,19|0.000|25.000,20|0.000|25.000,21|0.000|25.000,22|0.000|25.000,23|0.000|25.000,24|0.000|25.000,25|0.000|25.000,26|0.000|25.000,27|0.000|25.000,28|0.000|25.000,29|0.000|25.000,30|0.000|25.000,31|0.000|25.000,32|0.000|25.000,33|0.000|25.000,34|0.000|25.000,35|0.000|25.000,36|0.000|25.000,37|0.000|25.000,38|0.000|25.000,39|0.000|25.000,40|0.000|25.000,41|0.000|25.000,42|0.000|25.000,43|0.000|25.000,44|0.000|25.000,45|0.000|25.000,46|0.000|25.000,47|0.000|25.000,48|0.000|25.000,49|0.000|25.000,50|0.000|25.000
+			}
+			ResourceType
+			{
+				Resource = ExoticMinerals
+				MinColor = 0.939568579,0.970000029,0,1
+				MaxColor = 0.467882395,0,0.970000029,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,1|0.000|6.500,2|0.000|6.500,3|0.000|6.500,4|0.000|6.500,5|0.000|6.500,6|0.000|6.500,7|0.000|6.500,8|0.000|6.500,9|0.000|6.500,10|0.000|6.500,11|0.000|6.500,12|0.000|6.500,13|0.000|6.500,14|0.000|6.500,15|0.000|6.500,16|0.000|6.500,17|0.000|6.500,18|0.000|6.500,19|0.000|6.500,20|0.000|6.500,21|0.000|6.500,22|0.000|6.500,23|0.000|6.500,24|0.000|6.500,25|0.000|6.500,26|0.000|6.500,27|0.000|6.500,28|0.000|6.500,29|0.000|6.500,30|0.000|6.500,31|0.000|6.500,32|0.000|6.500,33|0.000|6.500,34|0.000|6.500,35|0.000|6.500,36|0.000|6.500,37|0.000|6.500,38|0.000|6.500,39|0.000|6.500,40|0.000|6.500,41|0.000|6.500,42|0.000|6.500,43|0.000|6.500,44|0.000|6.500,45|0.000|6.500,46|0.000|6.500,47|0.000|6.500,48|0.000|6.500,49|0.000|6.500,50|0.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Gypsum
+				MinColor = 0.779999971,0.2905882,0,1
+				MaxColor = 0,1,0.807843089,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,1|0.000|6.500,2|0.000|6.500,3|0.000|6.500,4|0.000|6.500,5|0.000|6.500,6|0.000|6.500,7|0.000|6.500,8|0.000|6.500,9|0.000|6.500,10|0.000|6.500,11|0.000|6.500,12|0.000|6.500,13|0.000|6.500,14|0.000|6.500,15|0.000|6.500,16|0.000|6.500,17|0.000|6.500,18|0.000|6.500,19|0.000|6.500,20|0.000|6.500,21|0.000|6.500,22|0.000|6.500,23|0.000|6.500,24|0.000|6.500,25|0.000|6.500,26|0.000|6.500,27|0.000|6.500,28|0.000|6.500,29|0.000|6.500,30|0.000|6.500,31|0.000|6.500,32|0.000|6.500,33|0.000|6.500,34|0.000|6.500,35|0.000|6.500,36|0.000|6.500,37|0.000|6.500,38|0.000|6.500,39|0.000|6.500,40|0.000|6.500,41|0.000|6.500,42|0.000|6.500,43|0.000|6.500,44|0.000|6.500,45|0.000|6.500,46|0.000|6.500,47|0.000|6.500,48|0.000|6.500,49|0.000|6.500,50|0.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Hydrates
+				MinColor = 0.172117695,0.769999981,0.39858821,1
+				MaxColor = 0.930000007,0.452235311,0,1
+				Transparency = 20
+				MinMaxValues = 0|0.000|30.000,1|0.000|30.000,2|0.000|30.000,3|0.000|30.000,4|0.000|30.000,5|0.000|30.000,6|0.000|30.000,7|0.000|30.000,8|0.000|30.000,9|0.000|30.000,10|0.000|30.000,11|0.000|30.000,12|0.000|30.000,13|0.000|30.000,14|0.000|30.000,15|0.000|30.000,16|0.000|30.000,17|0.000|30.000,18|0.000|30.000,19|0.000|30.000,20|0.000|30.000,21|0.000|30.000,22|0.000|30.000,23|0.000|30.000,24|0.000|30.000,25|0.000|30.000,26|0.000|30.000,27|0.000|30.000,28|0.000|30.000,29|0.000|30.000,30|0.000|30.000,31|0.000|30.000,32|0.000|30.000,33|0.000|30.000,34|0.000|30.000,35|0.000|30.000,36|0.000|30.000,37|0.000|30.000,38|0.000|30.000,39|0.000|30.000,40|0.000|30.000,41|0.000|30.000,42|0.000|30.000,43|0.000|30.000,44|0.000|30.000,45|0.000|30.000,46|0.000|30.000,47|0.000|30.000,48|0.000|30.000,49|0.000|30.000,50|0.000|30.000
+			}
+			ResourceType
+			{
+				Resource = RareMetals
+				MinColor = 0,0.49000001,0.351647109,1
+				MaxColor = 1,0,0.223529398,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,1|0.000|6.500,2|0.000|6.500,3|0.000|6.500,4|0.000|6.500,5|0.000|6.500,6|0.000|6.500,7|0.000|6.500,8|0.000|6.500,9|0.000|6.500,10|0.000|6.500,11|0.000|6.500,12|0.000|6.500,13|0.000|6.500,14|0.000|6.500,15|0.000|6.500,16|0.000|6.500,17|0.000|6.500,18|0.000|6.500,19|0.000|6.500,20|0.000|6.500,21|0.000|6.500,22|0.000|6.500,23|0.000|6.500,24|0.000|6.500,25|0.000|6.500,26|0.000|6.500,27|0.000|6.500,28|0.000|6.500,29|0.000|6.500,30|0.000|6.500,31|0.000|6.500,32|0.000|6.500,33|0.000|6.500,34|0.000|6.500,35|0.000|6.500,36|0.000|6.500,37|0.000|6.500,38|0.000|6.500,39|0.000|6.500,40|0.000|6.500,41|0.000|6.500,42|0.000|6.500,43|0.000|6.500,44|0.000|6.500,45|0.000|6.500,46|0.000|6.500,47|0.000|6.500,48|0.000|6.500,49|0.000|6.500,50|0.000|6.500
+			}
+			ResourceType
+			{
+				Resource = GeoEnergy
+				MinColor = 0,0.790000021,0.492588311,1
+				MaxColor = 1,0.725490212,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|6.500,1|10.000|35.000,2|1.000|35.000,3|1.000|6.500,4|1.000|6.500,5|1.000|35.000,6|1.000|6.500,7|1.000|6.500,8|1.000|6.500,9|1.000|35.000,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|35.000
+			}
+			ResourceType
+			{
+				Resource = Alumina
+				MinColor = 0.446470588,0,0.689999998,1
+				MaxColor = 1,1,1,1
+				Transparency = 20
+				MinMaxValues = 9|29.000|39.000,50|1.000|3.000,48|1.000|3.000,43|1.000|3.000,39|1.000|3.000,6|-1.000|1.000,46|1.000|3.000,45|1.000|3.000,42|1.000|3.000,44|1.000|3.000,49|1.000|3.000,34|1.000|3.000,21|1.000|3.000,7|1.000|5.000,17|1.000|5.000,12|1.000|5.000,11|1.000|5.000,20|1.000|3.000,1|1.000|3.000,8|2.000|8.000,18|2.000|8.000,14|2.000|8.000,41|2.000|8.000,38|2.000|8.000,37|2.000|8.000,36|2.000|8.000,32|2.000|8.000,26|2.000|8.000,3|2.000|8.000,2|4.000|12.000,13|2.000|6.000,15|2.000|6.000,24|2.000|6.000,10|2.000|6.000,22|2.000|8.000,4|2.000|8.000,0|0.700|10.000,5|0.700|10.000,16|0.700|10.000,19|0.700|10.000,23|0.700|10.000,25|0.700|10.000,27|0.700|10.000,28|0.700|10.000,29|0.700|10.000,30|0.700|10.000,31|0.700|10.000,33|0.700|10.000,35|0.700|10.000,40|0.700|10.000,47|0.700|10.000
+			}
+			ResourceType
+			{
+				Resource = Borate
+				MinColor = 0.0170588307,0.863176525,0.870000005,1
+				MaxColor = 1,0,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|7.500,1|1.000|7.500,2|1.000|7.500,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500
+			}
+			ResourceType
+			{
+				Resource = Monazite
+				MinColor = 0.146117598,0.0432941206,0.689999998,1
+				MaxColor = 0,1,0.678431392,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|7.500,1|1.000|15.000,2|1.000|20.000,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500,9|1.000|7.000,50|1.000|7.000,48|1.000|7.000,43|1.000|7.000,39|1.000|7.000,6|0.500|2.000,46|2.000|6.000,45|2.000|6.000,42|2.000|6.000,44|2.000|6.000,49|2.000|6.000,34|2.000|6.000,21|2.000|6.000,7|1.000|7.000,17|1.000|7.000,12|1.000|7.000,11|1.000|7.000,20|3.000|9.000,1|3.000|9.000,8|1.000|7.000,18|1.000|7.000,14|1.000|7.000,41|1.000|7.000,38|1.000|7.000,37|1.000|7.000,36|1.000|7.000,32|1.000|7.000,26|1.000|7.000,3|1.000|7.000,2|1.000|5.000,13|1.000|5.000,15|1.000|5.000,24|1.000|5.000,10|1.000|5.000,22|4.000|12.000,4|4.000|12.000,5|1.000|7.500,16|1.000|7.500,19|1.000|7.500,23|1.000|7.500,25|1.000|7.500,27|1.000|7.500,28|1.000|7.500,29|1.000|7.500,30|1.000|7.500,31|1.000|7.500,33|1.000|7.500,35|1.000|7.500,40|1.000|7.500,47|1.000|7.500
+			}
+			ResourceType
+			{
+				Resource = SaltWater
+				MinColor = 0,0.779999971,0.333411813,1
+				MaxColor = 0.388235301,0.921568573,1,1
+				Transparency = 20
+				MinMaxValues = 0|0.100|1.000,1|0.100|40.000,2|0.100|1.000,3|0.100|1.000,4|0.100|1.000,5|0.100|1.000,6|0.100|1.000,7|0.100|1.000,8|0.100|1.000,9|0.100|1.000,10|0.100|1.000,11|0.100|1.000,12|0.100|1.000,13|0.100|1.000,14|0.100|1.000,15|0.100|1.000,16|0.100|1.000
+			}
+			ResourceType
+			{
+				Resource = Silicates
+				MinColor = 0.819999993,0.75,0,1
+				MaxColor = 0.879999995,0.449999988,1,1
+				Transparency = 20
+				MinMaxValues = 0|0.000|30.000,1|0.000|30.000,2|0.000|30.000,3|0.000|30.000,4|0.000|30.000,5|0.000|30.000,6|0.000|30.000,7|0.000|30.000,8|0.000|30.000,9|0.000|30.000,10|0.000|30.000,11|0.000|30.000,12|0.000|30.000,13|0.000|30.000,14|0.000|30.000,15|0.000|30.000,16|0.000|30.000,17|0.000|30.000,18|0.000|30.000,19|0.000|30.000,20|0.000|30.000,21|0.000|30.000,22|0.000|30.000,23|0.000|30.000,24|0.000|30.000,25|0.000|30.000,26|0.000|30.000,27|0.000|30.000,28|0.000|30.000,29|0.000|30.000,30|0.000|30.000,31|0.000|30.000,32|0.000|30.000,33|0.000|30.000,34|0.000|30.000,35|0.000|30.000,36|0.000|30.000,37|0.000|30.000,38|0.000|30.000,39|0.000|30.000,40|0.000|30.000,41|0.000|30.000,42|0.000|30.000,43|0.000|30.000,44|0.000|30.000,45|0.000|30.000,46|0.000|30.000,47|0.000|30.000,48|0.000|30.000,49|0.000|30.000,50|0.000|30.000
+			}
+			ResourceType
+			{
+				Resource = SolarWind
+				MinColor = 0.129882395,0.350117713,0.720000029,1
+				MaxColor = 1,1,0,1
+				Transparency = 20
+				MinMaxValues = 0|0.100|1.000,1|0.100|1.000,2|0.100|1.000,3|0.100|1.000,4|0.500|10.000,5|0.100|1.000,6|0.100|1.000,7|0.100|1.000,8|0.100|1.000,9|0.100|1.000,10|0.100|1.000,11|0.100|1.000,12|0.100|1.000,13|0.100|1.000,14|0.100|1.000,15|0.100|1.000,16|0.100|1.000
+			}
+			ResourceType
+			{
+				Resource = Methane
+				MinColor = 0.146117598,0.0432941206,0.689999998,1
+				MaxColor = 0,1,0.678431392,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|7.500,1|1.000|15.000,2|1.000|20.000,3|1.000|7.500,4|1.000|7.500,5|1.000|7.500,6|1.000|7.500,7|1.000|7.500,8|1.000|7.500,9|1.000|7.500,10|1.000|7.500,11|1.000|7.500,12|1.000|7.500,13|1.000|7.500,14|1.000|7.500,15|1.000|7.500,16|1.000|7.500,1|0.000|7.500,2|0.000|7.500,3|0.000|7.500,4|0.000|7.500,5|0.000|7.500,6|0.000|7.500,7|0.000|7.500,8|0.000|7.500,9|0.000|7.500,10|0.000|7.500,11|0.000|7.500,12|0.000|7.500,13|0.000|7.500,14|0.000|7.500,15|0.000|7.500,16|0.000|7.500,17|0.000|7.500,18|0.000|7.500,19|0.000|7.500,20|0.000|7.500,21|0.000|7.500,22|0.000|7.500,23|0.000|7.500,24|0.000|7.500,25|0.000|7.500,26|0.000|7.500,27|0.000|7.500,28|0.000|7.500,29|0.000|7.500,30|0.000|7.500,31|0.000|7.500,32|0.000|7.500,33|0.000|7.500,34|0.000|7.500,35|0.000|7.500,36|0.000|7.500,37|0.000|7.500,38|0.000|7.500,39|0.000|7.500,40|0.000|7.500,41|0.000|7.500,42|0.000|7.500,43|0.000|7.500,44|0.000|7.500,45|0.000|7.500,46|0.000|7.500,47|0.000|7.500,48|0.000|7.500,49|0.000|7.500,50|0.000|7.500
+			}
+			ResourceType
+			{
+				Resource = CarbonDioxide
+				MinColor = 0.720000029,0.505411804,0,1
+				MaxColor = 0,0.630274475,0.980000019,1
+				Transparency = 20
+				MinMaxValues = 8|1.000|6.500,1|1.000|6.500,0|1.000|6.500,2|1.000|6.500,3|1.000|6.500,4|1.000|6.500,5|1.000|6.500,6|1.000|6.500,7|1.000|6.500,9|1.000|6.500,10|1.000|6.500,11|1.000|6.500,12|1.000|6.500,13|1.000|6.500,14|1.000|6.500,15|1.000|6.500,16|1.000|6.500,1|0.000|6.500,2|0.000|6.500,3|0.000|6.500,4|0.000|6.500,5|0.000|6.500,6|0.000|6.500,7|0.000|6.500,8|0.000|6.500,9|0.000|6.500,10|0.000|6.500,11|0.000|6.500,12|0.000|6.500,13|0.000|6.500,14|0.000|6.500,15|0.000|6.500,16|0.000|6.500,17|0.000|6.500,18|0.000|6.500,19|0.000|6.500,20|0.000|6.500,21|0.000|6.500,22|0.000|6.500,23|0.000|6.500,24|0.000|6.500,25|0.000|6.500,26|0.000|6.500,27|0.000|6.500,28|0.000|6.500,29|0.000|6.500,30|0.000|6.500,31|0.000|6.500,32|0.000|6.500,33|0.000|6.500,34|0.000|6.500,35|0.000|6.500,36|0.000|6.500,37|0.000|6.500,38|0.000|6.500,39|0.000|6.500,40|0.000|6.500,41|0.000|6.500,42|0.000|6.500,43|0.000|6.500,44|0.000|6.500,45|0.000|6.500,46|0.000|6.500,47|0.000|6.500,48|0.000|6.500,49|0.000|6.500,50|0.000|6.500
+			}
+			ResourceType
+			{
+				Resource = Ammonia
+				MinColor = 0.446470588,0,0.689999998,1
+				MaxColor = 0.0705882385,1,0,1
+				Transparency = 20
+				MinMaxValues = 0|0.700|10.000,1|0.700|14.000,2|2.500|35.000,3|0.700|10.000,4|2.500|35.000,5|0.700|10.000,6|5.000|55.000,7|0.700|10.000,8|0.700|10.000,9|0.700|10.000,10|0.700|10.000,11|0.700|10.000,12|0.700|10.000,13|0.700|10.000,14|0.700|10.000,15|0.700|90.000,16|0.700|10.000,1|0.000|10.000,2|0.000|10.000,3|0.000|10.000,4|0.000|10.000,5|0.000|10.000,6|0.000|10.000,7|0.000|10.000,8|0.000|10.000,9|0.000|10.000,10|0.000|10.000,11|0.000|10.000,12|0.000|10.000,13|0.000|10.000,14|0.000|10.000,15|0.000|10.000,16|0.000|10.000,17|0.000|10.000,18|0.000|10.000,19|0.000|10.000,20|0.000|10.000,21|0.000|10.000,22|0.000|10.000,23|0.000|10.000,24|0.000|10.000,25|0.000|10.000,26|0.000|10.000,27|0.000|10.000,28|0.000|10.000,29|0.000|10.000,30|0.000|10.000,31|0.000|10.000,32|0.000|10.000,33|0.000|10.000,34|0.000|10.000,35|0.000|10.000,36|0.000|10.000,37|0.000|10.000,38|0.000|10.000,39|0.000|10.000,40|0.000|10.000,41|0.000|10.000,42|0.000|10.000,43|0.000|10.000,44|0.000|10.000,45|0.000|10.000,46|0.000|10.000,47|0.000|10.000,48|0.000|10.000,49|0.000|10.000,50|0.000|10.000
+			}
+			ResourceType
+			{
+				Resource = Oxygen
+				MinColor = 0.0170588307,0.863176525,0.870000005,1
+				MaxColor = 1,0,0,1
+				Transparency = 20
+				MinMaxValues = 0|0.000|18.000,1|0.000|18.000,2|0.000|18.000,3|0.000|18.000,4|0.000|18.000,5|0.000|18.000,6|0.000|18.000,7|0.000|18.000,8|0.000|18.000,9|0.000|18.000,10|0.000|18.000,11|0.000|18.000,12|0.000|18.000,13|0.000|18.000,14|0.000|18.000,15|0.000|18.000,16|0.000|18.000,17|0.000|18.000,18|0.000|18.000,19|0.000|18.000,20|0.000|18.000,21|0.000|18.000,22|0.000|18.000,23|0.000|18.000,24|0.000|18.000,25|0.000|18.000,26|0.000|18.000,27|0.000|18.000,28|0.000|18.000,29|0.000|18.000,30|0.000|18.000,31|0.000|18.000,32|0.000|18.000,33|0.000|18.000,34|0.000|18.000,35|0.000|18.000,36|0.000|18.000,37|0.000|18.000,38|0.000|18.000,39|0.000|18.000,40|0.000|18.000,41|0.000|18.000,42|0.000|18.000,43|0.000|18.000,44|0.000|18.000,45|0.000|18.000,46|0.000|18.000,47|0.000|18.000,48|0.000|18.000,49|0.000|18.000,50|0.000|18.000
+			}
+			ResourceType
+			{
+				Resource = Dirt
+				MinColor = 1,0,1,1
+				MaxColor = 0.899999976,0.600000024,0,1
+				Transparency = 20
+				MinMaxValues = 0|3.000|9.000,1|3.000|9.000,2|3.000|9.000,3|3.000|9.000,4|3.000|9.000,5|3.000|9.000,6|3.000|9.000,7|3.000|9.000,8|3.000|9.000,9|3.000|9.000,10|3.000|9.000,11|3.000|9.000,12|3.000|9.000,13|3.000|9.000,14|3.000|9.000,15|3.000|9.000,16|3.000|9.000,17|3.000|9.000,18|3.000|9.000,19|3.000|9.000,20|3.000|9.000,21|3.000|9.000,22|3.000|9.000,23|3.000|9.000,24|3.000|9.000,25|3.000|9.000,26|3.000|9.000,27|3.000|9.000,28|3.000|9.000,29|3.000|9.000,30|3.000|9.000,31|3.000|9.000,32|3.000|9.000,33|3.000|9.000,34|3.000|9.000,35|3.000|9.000,36|3.000|9.000,37|3.000|9.000,38|3.000|9.000,39|3.000|9.000,40|3.000|9.000,41|3.000|9.000,42|3.000|9.000,43|3.000|9.000,44|3.000|9.000,45|3.000|9.000,46|3.000|9.000,47|3.000|9.000,48|3.000|9.000,49|3.000|9.000,50|3.000|9.000
+			}
+			ResourceType
+			{
+				Resource = Regolith
+				MinColor = 1,0,1,1
+				MaxColor = 0.899999976,0.600000024,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|20.000,1|1.000|20.000,2|1.000|20.000,3|1.000|20.000,4|1.000|20.000,5|1.000|20.000,6|1.000|20.000,7|1.000|20.000,8|1.000|20.000,9|1.000|20.000,10|1.000|20.000,11|1.000|20.000,12|1.000|20.000,13|1.000|20.000,14|1.000|20.000,15|1.000|20.000,16|1.000|20.000,17|1.000|20.000,18|1.000|20.000,19|1.000|20.000,20|1.000|20.000,21|1.000|20.000,22|1.000|20.000,23|1.000|20.000,24|1.000|20.000,25|1.000|20.000,26|1.000|20.000,27|1.000|20.000,28|1.000|20.000,29|1.000|20.000,30|1.000|20.000,31|1.000|20.000,32|1.000|20.000,33|1.000|20.000,34|1.000|20.000,35|1.000|20.000,36|1.000|20.000,37|1.000|20.000,38|1.000|20.000,39|1.000|20.000,40|1.000|20.000,41|1.000|20.000,42|1.000|20.000,43|1.000|20.000,44|1.000|20.000,45|1.000|20.000,46|1.000|20.000,47|1.000|20.000,48|1.000|20.000,49|1.000|20.000,50|1.000|20.000
+			}
+			ResourceType
+			{
+				Resource = LqdHe3
+				MinColor = 1,0,1,1
+				MaxColor = 0.899999976,0.600000024,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|10.000,1|1.000|10.000,2|1.000|10.000,3|1.000|10.000,4|1.000|10.000,5|1.000|10.000,6|1.000|10.000,7|1.000|10.000,8|1.000|10.000,9|1.000|10.000,10|1.000|10.000,11|1.000|10.000,12|1.000|10.000,13|1.000|10.000,14|1.000|10.000,15|1.000|10.000,16|1.000|10.000,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000,32|1.000|10.000,33|1.000|10.000,34|1.000|10.000,35|1.000|10.000,36|1.000|10.000,37|1.000|10.000,38|1.000|10.000,39|1.000|10.000,40|1.000|10.000,41|1.000|10.000,42|1.000|10.000,43|1.000|10.000,44|1.000|10.000,45|1.000|10.000,46|1.000|10.000,47|1.000|10.000,48|1.000|10.000,49|1.000|10.000,50|1.000|10.000
+			}
+			ResourceType
+			{
+				Resource = Spodumene
+				MinColor = 1,0,1,1
+				MaxColor = 0.899999976,0.600000024,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|10.000,1|1.000|10.000,2|1.000|10.000,3|1.000|10.000,4|1.000|10.000,5|1.000|10.000,6|1.000|10.000,7|1.000|10.000,8|1.000|10.000,9|1.000|10.000,10|1.000|10.000,11|1.000|10.000,12|1.000|10.000,13|1.000|10.000,14|1.000|10.000,15|1.000|10.000,16|1.000|10.000,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000,32|1.000|10.000,33|1.000|10.000,34|1.000|10.000,35|1.000|10.000,36|1.000|10.000,37|1.000|10.000,38|1.000|10.000,39|1.000|10.000,40|1.000|10.000,41|1.000|10.000,42|1.000|10.000,43|1.000|10.000,44|1.000|10.000,45|1.000|10.000,46|1.000|10.000,47|1.000|10.000,48|1.000|10.000,49|1.000|10.000,50|1.000|10.000
+			}
+			ResourceType
+			{
+				Resource = Nitrogen
+				MinColor = 1,0,1,1
+				MaxColor = 0.899999976,0.600000024,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|10.000,1|1.000|10.000,2|1.000|10.000,3|1.000|10.000,4|1.000|10.000,5|1.000|10.000,6|1.000|10.000,7|1.000|10.000,8|1.000|10.000,9|1.000|10.000,10|1.000|10.000,11|1.000|10.000,12|1.000|10.000,13|1.000|10.000,14|1.000|10.000,15|1.000|10.000,16|1.000|10.000,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000,32|1.000|10.000,33|1.000|10.000,34|1.000|10.000,35|1.000|10.000,36|1.000|10.000,37|1.000|10.000,38|1.000|10.000,39|1.000|10.000,40|1.000|10.000,41|1.000|10.000,42|1.000|10.000,43|1.000|10.000,44|1.000|10.000,45|1.000|10.000,46|1.000|10.000,47|1.000|10.000,48|1.000|10.000,49|1.000|10.000,50|1.000|10.000
+			}
+			ResourceType
+			{
+				Resource = Karborundum
+				MinColor = 1,0,1,1
+				MaxColor = 0.899999976,0.600000024,0,1
+				Transparency = 20
+				MinMaxValues = 0|1.000|10.000,1|1.000|10.000,2|1.000|10.000,3|1.000|10.000,4|1.000|10.000,5|1.000|10.000,6|1.000|10.000,7|1.000|10.000,8|1.000|10.000,9|1.000|10.000,10|1.000|10.000,11|1.000|10.000,12|1.000|10.000,13|1.000|10.000,14|1.000|10.000,15|1.000|10.000,16|1.000|10.000,17|1.000|10.000,18|1.000|10.000,19|1.000|10.000,20|1.000|10.000,21|1.000|10.000,22|1.000|10.000,23|1.000|10.000,24|1.000|10.000,25|1.000|10.000,26|1.000|10.000,27|1.000|10.000,28|1.000|10.000,29|1.000|10.000,30|1.000|10.000,31|1.000|10.000,32|1.000|10.000,33|1.000|10.000,34|1.000|10.000,35|1.000|10.000,36|1.000|10.000,37|1.000|10.000,38|1.000|10.000,39|1.000|10.000,40|1.000|10.000,41|1.000|10.000,42|1.000|10.000,43|1.000|10.000,44|1.000|10.000,45|1.000|10.000,46|1.000|10.000,47|1.000|10.000,48|1.000|10.000,49|1.000|10.000,50|1.000|10.000
+			}
+		}
+	}
+	SCENARIO
+	{
+		name = SpaceDustScenario
+		scene = 5, 7, 8, 6
+	}
+	SCENARIO
+	{
+		name = TRScenario
+		scene = 5
+		personaliseSuit = False
+		hideBackpack = False
+		reflectionType = Real
+		Kerbals
+		{
+			Jebediah Kerman = TR/Male40.m TR/Orange
+			Bill Kerman = TR/Male20.m TR/Orange
+			Bob Kerman = TR/Male50.m TR/Orange
+			Valentina Kerman = TR/Female10.f TR/Orange
+		}
+		ClassSuits
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = Tracking_Persistence
+		scene = 5, 8
+		BodyPersistence = 
+		BodyOrderListFixed = True
+		BodyOrderList = 1,0,2,4,7,13,10,8,14,18,15,17,19,5,33,40,45,44
+		TypePersistence = 
+		TypeOrderList = 7,11,3,8,6,5,4,9,10,18,13,15,14,17,12,40,19,45,1,44,0,33,2
+		SortMode = 0
+		BodyOrderMode = 0
+		TypeOrderMode = 0
+		StockOrderMode = 0
+		BodyAscOrder = False
+		TypeAscOrder = False
+		StockAscOrder = False
+	}
+	SCENARIO
+	{
+		name = Trajectories
+		scene = 7
+	}
+	SCENARIO
+	{
+		name = KerbalAlarmClockScenario
+		scene = 5, 6, 7, 8
+		KACAlarmListStorage
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = ResourceTransferScenario
+		scene = 7
+	}
+	SCENARIO
+	{
+		name = KonstructionScenario
+		scene = 7
+	}
+	SCENARIO
+	{
+		name = WOLF_CrewTransferScenario
+		scene = 7, 5, 8
+	}
+	SCENARIO
+	{
+		name = WOLF_ScenarioModule
+		scene = 6, 7, 5, 8
+		CREWROUTES
+		{
+		}
+		DEPOTS
+		{
+		}
+		HOPPERS
+		{
+		}
+		ROUTES
+		{
+		}
+		TERMINALS
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = YT_TechTreesScenario
+		scene = 5
+		treeSelected = True
+		TechTreeUrl = GameData\HideEmptyTechTreeNodes\Resources\HETTN.TechTree
+	}
+	SCENARIO
+	{
+		name = Kerbalism
+		scene = 5, 8, 7, 6
+		version = 3.32
+		uid = 1264869619
+		uncreditedScience = 0
+		kerbals
+		{
+		}
+		vessels2
+		{
+			15462c92-b21e-4005-acb5-7929d312a5e6
+			{
+				msg_signal = False
+				msg_belt = False
+				cfg_ec = True
+				cfg_supply = True
+				cfg_signal = False
+				cfg_malfunction = True
+				cfg_storm = False
+				cfg_script = False
+				cfg_highlights = True
+				cfg_showlink = True
+				cfg_show = True
+				isGroundCtrl = False
+				deviceTransmit = True
+				solarPanelsAverageExposure = -1
+				scienceTransmitted = 0
+				StormData
+				{
+					storm_time = 0
+					storm_duration = 0
+					storm_generation = 0
+					storm_state = 0
+					msg_storm = 0
+					displayed_duration = 0
+					display_warning = True
+				}
+				computer
+				{
+					scripts
+					{
+					}
+				}
+				supplies
+				{
+				}
+				dump_specs
+				{
+				}
+				SunShielding
+				{
+					sspi
+					{
+					}
+				}
+				parts
+				{
+				}
+			}
+			f758d9ce-1528-4b32-9865-7b7c6729422a
+			{
+				msg_signal = False
+				msg_belt = False
+				cfg_ec = True
+				cfg_supply = True
+				cfg_signal = False
+				cfg_malfunction = True
+				cfg_storm = False
+				cfg_script = False
+				cfg_highlights = True
+				cfg_showlink = True
+				cfg_show = True
+				isGroundCtrl = False
+				deviceTransmit = True
+				solarPanelsAverageExposure = -1
+				scienceTransmitted = 0
+				StormData
+				{
+					storm_time = 0
+					storm_duration = 0
+					storm_generation = 0
+					storm_state = 0
+					msg_storm = 0
+					displayed_duration = 0
+					display_warning = True
+				}
+				computer
+				{
+					scripts
+					{
+					}
+				}
+				supplies
+				{
+				}
+				dump_specs
+				{
+				}
+				SunShielding
+				{
+					sspi
+					{
+					}
+				}
+				parts
+				{
+				}
+			}
+			733b4944-32ee-4193-8d81-9281a72e4829
+			{
+				msg_signal = False
+				msg_belt = False
+				cfg_ec = True
+				cfg_supply = True
+				cfg_signal = False
+				cfg_malfunction = True
+				cfg_storm = False
+				cfg_script = False
+				cfg_highlights = True
+				cfg_showlink = True
+				cfg_show = True
+				isGroundCtrl = False
+				deviceTransmit = True
+				solarPanelsAverageExposure = -1
+				scienceTransmitted = 0
+				StormData
+				{
+					storm_time = 0
+					storm_duration = 0
+					storm_generation = 0
+					storm_state = 0
+					msg_storm = 0
+					displayed_duration = 0
+					display_warning = True
+				}
+				computer
+				{
+					scripts
+					{
+					}
+				}
+				supplies
+				{
+				}
+				dump_specs
+				{
+				}
+				SunShielding
+				{
+					sspi
+					{
+					}
+				}
+				parts
+				{
+				}
+			}
+		}
+		subjectData
+		{
+		}
+		bodies
+		{
+			Earth
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 36747.287924597142
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Mercury
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 41007.148097992424
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Venus
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 41971.078946716101
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Saturn
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 40247.190439579521
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Ryugu
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 42106.443019989478
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Vesta
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 38530.122214075069
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Mars
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 38127.51913789571
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Eros
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 41252.706480508779
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Ceres
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 40646.353614191903
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Ida
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 37216.421610650519
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Psyche
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 42013.017242222726
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Pallas
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 41219.540680802806
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Jupiter
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 39345.32415172716
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Uranus
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 40281.115214760539
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Neptune
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 38608.097926388589
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Arrokoth
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 40941.5692920371
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+			Pluto
+			{
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 38275.433477906234
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
+				display_warning = True
+			}
+		}
+		landmarks
+		{
+			belt_crossing = False
+			manned_orbit = False
+			space_harvest = False
+			space_analysis = False
+			heliopause_crossing = False
+		}
+		ui
+		{
+			win_left = 280
+			win_top = 100
+			map_viewed = False
+		}
+	}
+	SCENARIO
+	{
+		name = KolonizationScenario
+		scene = 5, 7, 6
+		KOLONIZATION
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = PlanetaryLogisticsScenario
+		scene = 5, 7, 6
+		PLANETARY_LOGISTICS
+		{
+		}
+	}
+	SCENARIO
+	{
+		name = ScenarioOrbitalLogistics
+		scene = 5, 7, 8
+	}
+	FLIGHTSTATE
+	{
+		version = 1.12.5
+		UT = 61.98000000000409
+		activeVessel = 0
+		mapViewFiltering = 0
+		commNetUIModeTracking = Network
+		commNetUIModeFlight = Path
+		VESSEL
+		{
+			pid = 15462c92b21e4005acb57929d312a5e6
+			persistentId = 2660042306
+			name = Ast. ECT-665
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			skipGroundPositioning = False
+			skipGroundPositioningForDroppedPart = False
+			vesselSpawning = True
+			launchedFrom = 
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 0.02
+			lct = 0.02
+			lastUT = -1
+			distanceTraveled = 0
+			root = 0
+			lat = -0.79545839396930007
+			lon = 100.43150496622275
+			alt = 37196637619.660652
+			hgt = -1
+			nrm = 0,1,0
+			rot = -0.760136664,0.318134606,-0.515938103,0.234073699
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			PQSMin = 0
+			PQSMax = 0
+			GroupOverride = 0
+			OverrideDefault = False,False,False,False
+			OverrideActionControl = 0,0,0,0
+			OverrideAxisControl = 0,0,0,0
+			OverrideGroupNames = ,,,
+			altDispState = DEFAULT
+			ORBIT
+			{
+				SMA = 38247354036.714249
+				ECC = 0.031197875655797045
+				INC = 0.8060513944558636
+				LPE = 323.23515847423255
+				LAN = 181.13177096035076
+				MNA = 0.6071777527355936
+				EPH = 3458021.7241015625
+				REF = 0
+				IDENT = Sol/Sun
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 1874597799
+				mid = 1874597799
+				persistentId = 1211249363
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 1
+				state = 0
+				PreFailState = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+				modMass = 0
+				moduleVariantName = 
+				moduleCargoStackableQuantity = 1
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 0.02
+				lifetime = 332062.85934448242
+				refTime = 1728000
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				AxisGroupsModule
+				{
+				}
+				VesselModuleSave
+				{
+				}
+				SpaceDustVessel
+				{
+				}
+				ShipEffects
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
+				kOSVesselModule
+				{
+				}
+				RPMVesselComputer
+				{
+					PERSISTENT_VARS
+					{
+					}
+				}
+				AtmoFxModule
+				{
+				}
+				ModuleDynamicBatteryStorage
+				{
+				}
+				VesselDataManager
+				{
+				}
+				BPB_VesselModule
+				{
+					vesselGuid = 15462c92-b21e-4005-acb5-7929d312a5e6
+					missionTime = 61.92000000000408
+					aborted = False
+					abortAcknowledged = False
+					abortTime = 0
+					postAbortActionCompleted = False
+					armed = False
+					status = Off
+					vertSpeedTriggerEnabled = False
+					vertSpeed = -40
+					gForceTriggerEnabled = False
+					gForceTrigger = 6
+					exceedingAoA = False
+					maxAoA = 20
+					explosiveTriggerEnabled = False
+					disableAfter = 600
+					actionAfterTimeout = 0
+					disableAtAltitudeKm = 100
+					disableAtAltitude = 100000
+					ignoreAoAAboveAltitudeKm = 100
+					ignoreAoAAboveAltitude = 100000
+					maxTimeoutActionG = 10
+					postAbortAction = 0
+					postAbortDelay = 0
+					delayPostAbortUntilSafe = False
+				}
+				BetterBurnTimeData
+				{
+				}
+				BackgroundThrustVessel
+				{
+					LastUpdateTime = 0.02
+					LastUpdateMass = 0
+					throttle = 0
+					throttle = 0
+					DryMass = 0
+				}
+				ModuleStabilization
+				{
+				}
+				SuspensionLoadBalancer
+				{
+				}
+				SystemHeatVessel
+				{
+				}
+				WOLF_CrewModule
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = f758d9ce15284b3298657b7c6729422a
+			persistentId = 2171725741
+			name = Ast. UHP-069
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			skipGroundPositioning = False
+			skipGroundPositioningForDroppedPart = False
+			vesselSpawning = True
+			launchedFrom = AST-MainBeltAsteroids
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 39.100000000000513
+			lct = 39.100000000000513
+			lastUT = -1
+			distanceTraveled = 0
+			root = 0
+			lat = 8.7780582271189491
+			lon = 32.401162120400635
+			alt = 521745145534.98267
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.199711189,-0.511332095,-0.566276073,0.614805937
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			PQSMin = 0
+			PQSMax = 0
+			GroupOverride = 0
+			OverrideDefault = False,False,False,False
+			OverrideActionControl = 0,0,0,0
+			OverrideAxisControl = 0,0,0,0
+			OverrideGroupNames = ,,,
+			altDispState = DEFAULT
+			ORBIT
+			{
+				SMA = 435142000640
+				ECC = 0.19944818317890167
+				INC = 9.3512258529663086
+				LPE = 290.83428955078125
+				LAN = 282.07723999023438
+				MNA = 260.73291015625
+				EPH = 1.0005650520324707
+				REF = 0
+				IDENT = Sol/Sun
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 473122193
+				mid = 473122193
+				persistentId = 2154494953
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 1
+				state = 0
+				PreFailState = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+				modMass = 0
+				moduleVariantName = 
+				moduleCargoStackableQuantity = 1
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 39.100000000000513
+				lifetime = 793850.09765625
+				refTime = 1728000
+				size = 4
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				AxisGroupsModule
+				{
+				}
+				VesselModuleSave
+				{
+				}
+				SpaceDustVessel
+				{
+				}
+				ShipEffects
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
+				kOSVesselModule
+				{
+				}
+				RPMVesselComputer
+				{
+					PERSISTENT_VARS
+					{
+					}
+				}
+				AtmoFxModule
+				{
+				}
+				ModuleDynamicBatteryStorage
+				{
+				}
+				VesselDataManager
+				{
+				}
+				BPB_VesselModule
+				{
+					vesselGuid = f758d9ce-1528-4b32-9865-7b7c6729422a
+					missionTime = 39.100000000000513
+					aborted = False
+					abortAcknowledged = False
+					abortTime = 0
+					postAbortActionCompleted = False
+					armed = False
+					status = Off
+					vertSpeedTriggerEnabled = False
+					vertSpeed = -40
+					gForceTriggerEnabled = False
+					gForceTrigger = 6
+					exceedingAoA = False
+					maxAoA = 20
+					explosiveTriggerEnabled = False
+					disableAfter = 600
+					actionAfterTimeout = 0
+					disableAtAltitudeKm = 100
+					disableAtAltitude = 100000
+					ignoreAoAAboveAltitudeKm = 100
+					ignoreAoAAboveAltitude = 100000
+					maxTimeoutActionG = 10
+					postAbortAction = 0
+					postAbortDelay = 0
+					delayPostAbortUntilSafe = False
+				}
+				BetterBurnTimeData
+				{
+				}
+				BackgroundThrustVessel
+				{
+					LastUpdateTime = 39.100000000000513
+					LastUpdateMass = 0
+					throttle = 0
+					throttle = 0
+					DryMass = 0
+				}
+				ModuleStabilization
+				{
+				}
+				SuspensionLoadBalancer
+				{
+				}
+				SystemHeatVessel
+				{
+				}
+				WOLF_CrewModule
+				{
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 733b494432ee41938d819281a72e4829
+			persistentId = 1946207931
+			name = Ast. JHN-539
+			type = SpaceObject
+			sit = ORBITING
+			landed = False
+			skipGroundPositioning = False
+			skipGroundPositioningForDroppedPart = False
+			vesselSpawning = True
+			launchedFrom = AST-MainBeltAsteroids
+			landedAt = 
+			displaylandedAt = 
+			splashed = False
+			met = 57.020000000003314
+			lct = 57.020000000003314
+			lastUT = -1
+			distanceTraveled = 0
+			root = 0
+			lat = -8.8901068435974331
+			lon = -157.01136281993135
+			alt = 254243949840.54706
+			hgt = -1
+			nrm = 0,1,0
+			rot = 0.753706396,0.599175692,0.0397261009,0.267090052
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			PQSMin = 0
+			PQSMax = 0
+			GroupOverride = 0
+			OverrideDefault = False,False,False,False
+			OverrideActionControl = 0,0,0,0
+			OverrideAxisControl = 0,0,0,0
+			OverrideGroupNames = ,,,
+			altDispState = DEFAULT
+			ORBIT
+			{
+				SMA = 332428705792
+				ECC = 0.25024715065956116
+				INC = 14.532586097717285
+				LPE = 348.04843139648438
+				LAN = 240.11259460449219
+				MNA = 269.9091796875
+				EPH = 0.99977779388427734
+				REF = 0
+				IDENT = Sol/Sun
+			}
+			PART
+			{
+				name = PotatoRoid
+				cid = 0
+				uid = 374572827
+				mid = 374572827
+				persistentId = 2361639007
+				launchID = 0
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				resPri = 0
+				dstg = 0
+				sqor = 0
+				sepI = 0
+				sidx = 0
+				attm = 0
+				sameVesselCollision = False
+				srfN = None, -1
+				mass = 150
+				shielded = False
+				temp = -1
+				tempExt = 0
+				tempExtUnexp = 0
+				staticPressureAtm = 0
+				expt = 1
+				state = 0
+				PreFailState = 0
+				attached = True
+				autostrutMode = Off
+				rigidAttachment = False
+				flag = 
+				rTrf = 
+				modCost = 0
+				modMass = 0
+				moduleVariantName = 
+				moduleCargoStackableQuantity = 1
+			}
+			ACTIONGROUPS
+			{
+			}
+			DISCOVERY
+			{
+				state = 1
+				lastObservedTime = 57.020000000003314
+				lifetime = 1642285.3820800781
+				refTime = 1728000
+				size = 4
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+			}
+			VESSELMODULES
+			{
+				ModularFlightIntegrator
+				{
+				}
+				AxisGroupsModule
+				{
+				}
+				VesselModuleSave
+				{
+				}
+				SpaceDustVessel
+				{
+				}
+				ShipEffects
+				{
+				}
+				KSPWheelVesselDebug
+				{
+				}
+				KSPWheelVesselControl
+				{
+				}
+				KSPWheelDustCamera
+				{
+				}
+				kOSVesselModule
+				{
+				}
+				RPMVesselComputer
+				{
+					PERSISTENT_VARS
+					{
+					}
+				}
+				AtmoFxModule
+				{
+				}
+				ModuleDynamicBatteryStorage
+				{
+				}
+				VesselDataManager
+				{
+				}
+				BPB_VesselModule
+				{
+					vesselGuid = 733b4944-32ee-4193-8d81-9281a72e4829
+					missionTime = 4.9200000000007691
+					aborted = False
+					abortAcknowledged = False
+					abortTime = 0
+					postAbortActionCompleted = False
+					armed = False
+					status = Off
+					vertSpeedTriggerEnabled = False
+					vertSpeed = -40
+					gForceTriggerEnabled = False
+					gForceTrigger = 6
+					exceedingAoA = False
+					maxAoA = 20
+					explosiveTriggerEnabled = False
+					disableAfter = 600
+					actionAfterTimeout = 0
+					disableAtAltitudeKm = 100
+					disableAtAltitude = 100000
+					ignoreAoAAboveAltitudeKm = 100
+					ignoreAoAAboveAltitude = 100000
+					maxTimeoutActionG = 10
+					postAbortAction = 0
+					postAbortDelay = 0
+					delayPostAbortUntilSafe = False
+				}
+				BetterBurnTimeData
+				{
+				}
+				BackgroundThrustVessel
+				{
+					LastUpdateTime = 57.040000000003317
+					LastUpdateMass = 0
+					throttle = 0
+					throttle = 0
+					DryMass = 0
+				}
+				ModuleStabilization
+				{
+				}
+				SuspensionLoadBalancer
+				{
+				}
+				SystemHeatVessel
+				{
+				}
+				WOLF_CrewModule
+				{
+				}
+			}
+		}
+	}
+	LoaderInfo
+	{
+		Scale_Redist v1.0.0.0 / v2.4.8.9 = True
+		ModuleManager v4.2.3.0 = True
+		ClickThroughBlocker v2.1.10.22 = True
+		FilterExtensions v3.2.9.1 = True
+		0Harmony v2.2.1.0 = True
+		HarmonyInstallChecker v2.2.1.0 = True
+		Unity.Burst.Unsafe v4.0.5.0 / v1.0.0.0 = True
+		Unity.Mathematics v1.0.0.0 = True
+		Microsoft.Extensions.FileSystemGlobbing v6.0.0.0 / v6.0.0-preview.2.21154.6+3eaf1f316b8b1da73fdb98e9cca43c0ddaa12f45 / v6.0.21.15406 = True
+		System.IO.Compression v4.0.0.0 / v4.6.57.0 = True
+		System.Runtime.CompilerServices.Unsafe v4.0.6.0 / v3.1.3+8a3ffed558ddf943c1efa87d693227722d6af094 / v4.700.20.12001 = True
+		System.Runtime v4.1.0.0 / v4.0.0.0 = True
+		Unity.Burst v1.7.4.0 = True
+		System.IO.Compression.FileSystem v4.0.0.0 / v4.6.57.0 = True
+		Unity.Collections v0.8.0.0 = True
+		Unity.Jobs v0.2.9.0 = True
+		KSPBurst v1.7.4.10 = True
+		BlendshapeModelLoader v1.6.4.30 = True
+		TexturesUnlimited v1.6.4.30 = True
+		USITools v1.0.0.0 = True
+		USIToolsUI v1.0.0.0 = True
+		ToolbarControl v0.1.9.14 = True
+		KSPe.Light.Recall v2.5.5.2 = True
+		Attached v0.5.0.3 = True
+		AttachedOnEditor v0.5.0.3 = True
+		ChillingOut v0.5.0.3 = True
+		Driftless v0.5.0.3 = True
+		KSP-Recall v0.5.0.3 = True
+		Refunding v0.5.0.3 = True
+		Resourceful v0.5.0.3 = True
+		Kopernicus.Parser v1.0.0.0 / v1.0.0.0+2398a50e208a22315a68553b89918c791ea0f073 = True
+		ModularFlightIntegrator v1.0.0.0 / v1.2.10.0 = True
+		SharpDX v4.2.0.0 / v4.2.0+8e5df9f17b1d328c595a9df5851dbb2537b55621 / v4.2.0 = True
+		SharpDX.DXGI v4.2.0.0 / v4.2.0+8e5df9f17b1d328c595a9df5851dbb2537b55621 / v4.2.0 = True
+		SharpDX.Direct3D11 v4.2.0.0 / v4.2.0+8e5df9f17b1d328c595a9df5851dbb2537b55621 / v4.2.0 = True
+		KSPTextureLoader v1.0.35.0 / v1.0.35+8cd1ceadab334317d8c3f03d85ea12791a176b4b = True
+		Kopernicus v1.0.247.0 / v1.0.247+2398a50e208a22315a68553b89918c791ea0f073 / v1.12.247.0 = True
+		BurstPQS v1.0.0.0 / v0.1.24+174991ba6be39ae49f74d73524f1ee24c642ee25 / v0.1.24 = True
+		AdvancedPQSTools v1.6.1.0 = True
+		AnyResContinued v2.0.12.1 = True
+		Astrogator v1.0.2.0 = True
+		B9PartSwitch v2.21.0.4 = True
+		B9-PWings-Fork v0.46.1.0 / v0.46.1 = True
+		BackgroundThrust v0.6.10.0 / v0.6.10+bc3bf81bf4d9001d386bb44f849aad1282df46d9 = True
+		MechJeb2 v2.15.0.0 / v / v2.15.3.0 = True
+		BackgroundThrust.MechJeb2 v0.6.10.0 / v0.6.10+bc3bf81bf4d9001d386bb44f849aad1282df46d9 = True
+		PlanetsideExplorationTechnologies v1.0.0.0 = True
+		BetterBurnTime v1.0.0.0 = True
+		SigmaTweakMaxResource v1.0.0.0 = True
+		BobsPanicBox v0.0.2.5 = True
+		CustomPreLaunchChecks v1.0.0.0 / v1.8.1.0 = True
+		KerbalKonstructs v2.0.0.0 / v1.12.2.0 = True
+		BurstPQS.KerbalKonstructs v1.0.0.0 / v0.1.24+174991ba6be39ae49f74d73524f1ee24c642ee25 / v0.1.24 = True
+		BurstPQS.Kopernicus v1.0.0.0 / v0.1.24+174991ba6be39ae49f74d73524f1ee24c642ee25 / v0.1.24 = True
+		ParallaxContinued v1.0.0.0 / v1.0.0+bf105902964cd7358f01e03b6b3ecfde19965781 = True
+		BurstPQS.ParallaxContinued v1.0.0.0 / v0.1.24+174991ba6be39ae49f74d73524f1ee24c642ee25 / v0.1.24 = True
+		KSP_Log v1.2.0.1 = True
+		SpaceTuxUtility v1.0.2.0 / v1.0.2 = True
+		CactEye2 v1.5.4.2 = True
+		DistantObjectHook v1.0.0.0 = True
+		PartWrapper v1.0.0.0 = True
+		CCK v5.1.0.0 / v5.1.0.0 for KSP v1 = True
+		CrewQueueTwo v1.1.11.5 = True
+		SimpleBoiloff v0.2.1.0 = True
+		DeployableEngines v2.2.0.0 = True
+		DistantObject v0.0.0.0 = True
+		KSPe.Light.DOE v2.5.5.2 = True
+		DMagic v1.4.3.0 / vv1.4.3.0 = True
+		DockingCamKURS v1.3.9.0 / v1.3.9 = True
+		DynamicBatteryStorage v1.0.0.0 = True
+		EasyRobotics v1.5.0.0 = True
+		EasyVesselSwitch v2.3.7852.41352 / v2.3 for KSP v1.11+ = True
+		KSPDev_Utils.2.6-EVS v2.6.0.0 / v2.6 for KSP v1 - EVS build = True
+		Atmosphere v3.1.2.0 = True
+		CelestialShadows v3.1.2.0 = True
+		CityLights v3.1.2.0 = True
+		EVEManager v3.1.2.0 = True
+		PartFX v3.1.2.0 = True
+		PQSManager v3.1.2.0 = True
+		ShaderLoader v3.1.2.0 = True
+		Terrain v3.1.2.0 = True
+		TextureConfig v3.1.2.0 = True
+		Utils v3.1.2.0 = True
+		_BuildManager v3.1.2.0 = True
+		FarFutureTechnologies v1.0.0.0 = True
+		FireflyAPI v1.0.0.0 / v1.0.0+329dbaa96a227c74fcec9d880058e72b53e4d710 = True
+		Firefly v1.0.6.0 / v1.0.6+6ed0f3e49ea946999801ce1f57fa8711e0207cae = True
+		FireflyInstallChecker v1.0.0.0 / v1.0.0+6ed0f3e49ea946999801ce1f57fa8711e0207cae = True
+		Firespitter v7.3.7660.26532 = True
+		ForScience v1.6.0.0 / v1.6.0 = True
+		FP_DockingSndFX v2.1.12.27690 = True
+		HangerExtenderExtended v3.6.1.0 / v3.6.1 = True
+		KSPe.Light.GPOSpeedPump v2.5.5.2 = True
+		GPOSpeedPump v1.9.1.2 = True
+		HideEmptyFilters v1.0.5.0 = True
+		HideEmptyTechTreeNodes v1.0.0.0 = True
+		HUDReplacer v1.4.2.0 / v1.4.2+4ab67a18484a263597eefb6629454dd9dcafe4f9 = True
+		JanitorsCloset v0.3.9.0 / v0.3.9 = True
+		MechJebLib v1.0.0.0 = True
+		RasterPropMonitor v1.1.0.1 / v1.1.0.1+b443e7d42e18def074383d7dd657320b9961f7b8 = True
+		MechJebRPM v1.1.0.1 / v1.1.0.1+b443e7d42e18def074383d7dd657320b9961f7b8 = True
+		KAS-API-v2 v2.0.7239.35367 / vKAS API v2 = True
+		KAS v1.12.8285.34332 / v1.12 for KSP v1 = True
+		KSPDev_Utils.2.7 v2.7.0.0 / v2.7 for KSP v1 = True
+		KerbalChangelog v1.4.2.0 = True
+		KerbalConstructionTime v1.4.12.0 = True
+		KerbalEngineer.Unity v1.0.0.0 = True
+		KerbalEngineer v1.1.9.5 = True
+		KerbalFX.Core v0.0.0.0 = True
+		KerbalFX.AeroFX v0.0.0.0 = True
+		KerbalismBootstrap v3.32.9631.41827 / v3.32 = True
+		KerbalJointReinforcement v3.8.7.0 = True
+		KerbalLaunchVehicles v1.2.0.1 = True
+		KIS v1.29.8039.40483 / v1.29 for KSP v1.12+ = True
+		KSPDev_Utils.2.6 v2.6.7847.1936 / v2.6 for KSP v1 = True
+		MiniAVC-V2 v2.0.0.0 = True
+		ICSharpCode.SharpZipLib v0.86.0.518 / v0.86.0 = True
+		kOS.Safe v1.6.0.1 / v1.6.0.1+d4388439c712994e47258ed7514e863f79da632b = True
+		kOS v1.6.0.1 / v1.6.0.1+d4388439c712994e47258ed7514e863f79da632b = True
+		KRASH v0.5.34.2 = True
+		KSCSwitcher v2.0.0.0 / v2.2.0.0 = True
+		0_MultipleModuleInPartAPI v1.0.0.0 / v1.0.0+7969fdc50bf4e350193abe5ba2e89533b12ca02f = True
+		KSPCommunityFixes v1.41.0.0 / v1.41.1+7969fdc50bf4e350193abe5ba2e89533b12ca02f / v1.41.1.0 = True
+		KSPWheel v0.0.0.0 = True
+		LunarTransferPlanner v0.0.0.0 = True
+		MagiCore v1.4.0.0 / v1.0.0.0 / v1.4.0 = True
+		alglib v1.0.0.0 = True
+		MechJebLibBindings v1.0.0.0 = True
+		DockingPortAlignmentIndicator v6.13.1.0 = True
+		DockingPortAlignmentIndicator.Unity v6.13.1.0 = True
+		DPAI_RPM v6.13.1.0 = True
+		ModuleDockingNodeNamed v6.13.1.0 = True
+		NearFutureElectrical v1.0.0.0 = True
+		NearFutureExploration v0.4.0.0 = True
+		NFPropUtils v1.0.0.0 = True
+		NearFuturePropulsion v0.9.0.0 = True
+		NearFutureSolar v0.4.0.0 = True
+		NearFutureUtils v0.0.0.0 = True
+		NE_Science v0.10.0.0 / v0.10.0 for KSP 1.11+ = True
+		FinalFrontier v1.0.0.0 = True
+		KerbalNRAP v1.6.1.1 / v1.5.1.1 = True
+		OnDemandFuelCells v1.2.99.0 / v1.2.99 / v1.2.99.119 = True
+		PatchManager v0.0.17.8 = True
+		PlanetarySurfaceStructures v1.6.16.0 = True
+		MiniAVC v1.4.0.2 = True
+		RCSBuildAid v0.10.0.0 = True
+		RealChute v1.4.9059.6703 / v1.4.9.5 = True
+		BackgroundResources v1.12.0.0 = True
+		Restock v1.0.0.0 / v1.0.0+7f266364f4d5f763ed815d920b99e1b449d29ef2 = True
+		RocketSoundEnhancement.Unity v0.9.13.0 / v0.9.13+2054525a2d361b2b4439f4fcfb554be1a8f9fc72 = True
+		RocketSoundEnhancement v0.9.13.0 / v0.9.13+2054525a2d361b2b4439f4fcfb554be1a8f9fc72 = True
+		SafeChute v2.1.19.0 / v2.1.19 = True
+		ScaledDecorator v1.0.0.0 / v1.0.0+af52f072f9b4d4c5f2dfdbe3086c8efab39fd11b = True
+		SCANsat.Unity v21.1.0.0 / v21.1+dc6740fde73995e7b08166a69ebfdf867b3b22e4 = True
+		SCANsat v21.1.0.0 / v21.1+dc6740fde73995e7b08166a69ebfdf867b3b22e4 = True
+		SCANmechjeb v21.1.0.0 / v21.1+dc6740fde73995e7b08166a69ebfdf867b3b22e4 = True
+		scatterer v0.903.0.0 = True
+		ScienceLabInfo v2.0.2.0 = True
+		ScienceRelay v7.0.0.0 / vv6.0 / v7.0.0 = True
+		SensiblePumps v1.3.0.1 = True
+		Shabby v0.0.0.0 / v0.4.2 / v0.4.2.0 = True
+		ShipManifest v6.0.8.0 = True
+		SMInterface v6.0.3.0 = True
+		CLSInterfaces v2.0.1.0 = True
+		ShowFPS v0.3.2.1 = True
+		SmokeScreen v2.8.14.0 = True
+		SpaceDust v0.5.4.0 / v0.5.4 = True
+		ButtonManager v1.0.2.0 / v1.0.2 = True
+		KSP_ColorPicker v1.1.1.0 / v1.1.1 = True
+		KSP_PartHighlighter v1.1.1.0 / v1.1.1 = True
+		VesselModuleSave v1.0.2.0 / v1.0.2 = True
+		SpeedUnitAnnex v1.6.1.0 = True
+		StageRecovery v1.9.8.1 = True
+		HabUtils v1.0.0.0 = True
+		StockAlarmClockDisabler v1.0.0.0 = True
+		SystemHeat v0.9.1.0 / v0.9.1+03192e329ab8944b66a5c004c03b1b7596b0b6ad = True
+		TarsierSpaceTech v7.13.0.0 = True
+		TextureReplacer v4.5.3.925 = True
+		BetterTracking.Unity v1.0.9.1 = True
+		TrackingStationEvolved v1.0.9.1 / v7.0 = True
+		Trajectories v2.4.5.4 = True
+		KerbalAlarmClock v3.14.2.5 = True
+		TransferWindowPlanner v1.9.1.1 / v1.9.1.1+705a76bb8c507c0d68b79702d8d689d44cad4f4d = True
+		KSPe.Light.TweakScale v2.5.5.2 = True
+		Scale v2.4.8.9 = True
+		TweakScale.WatchDog v2.4.8.9 = True
+		TweakScaleCompanion v2026.3.21.3 = True
+		TweakScaleCompanion_Frameworks v0.4.0.8 = True
+		TweakScalerTestFlightCore v0.4.0.8 = True
+		TweakScalerWaterfallFX v0.4.0.8 = True
+		TweakScaleCompanion_FS v1.3.0.1 = True
+		TweakScalerFSBuoyancy v1.3.0.1 = True
+		TweakScaleCompanion_KIAS v1.1.0.0 = True
+		TweakScalerKISInventory v1.1.0.0 = True
+		TweakScaleCompanion_PKMC v2.2.1.2 = True
+		DynamicTanks v1.0.0.0 = True
+		Konstruction v0.0.0.0 = True
+		KonstructionUI v1.0.0.0 = True
+		KolonyTools v1.0.0.0 = True
+		USI_WOLF v1.0.0.0 = True
+		WOLFUI v1.0.0.0 = True
+		UniversalStorage2 v4.0.4.0 / v4.0.4 = True
+		UniversalStorage2.Unity v1.8.0.0 = True
+		VABOrganizer v0.0.0.0 = True
+		VaporCones v1.0.0.0 = True
+		Waterfall v0.11.0.0 / v0.11.0+6be4f897ad86577c6ce2c17e6da0848b14d5250a = True
+		WaypointManager v2.8.4.7 / v2.8.1 = True
+		KerbalActuators v1.0.0.0 = True
+		YongeTech_TechTreesExpansion v0.0.0.0 / v1.0.0.0 = True
+		YongeTech_RDIconLoader v1.0.0.1 / v1.0.0.0 = True
+		zKerbalismFFT v0.1.0.0 / v1.0.0.0 = True
+		zKerbalismSystemHeat v0.4.0.0 / v1.0.0.0 = True
+		Deferred v1.3.5.0 = True
+		[x]_Science! v6.0.3.1 = True
+		000_ClickThroughBlocker = True
+		000_FilterExtensions = True
+		000_FilterExtensions_Configs = True
+		000_Harmony = True
+		000_KSPBurst = True
+		000_TexturesUnlimited = True
+		000_USITools = True
+		001_ToolbarControl = True
+		002_CommunityPartsTitles = True
+		999_KSP-Recall = True
+		AdvancedPQSTools = True
+		AirplanePlus = True
+		AnyRes = True
+		Astrogator = True
+		Avalanche = True
+		B9PartSwitch = True
+		B9_Aerospace_ProceduralWings = True
+		BackgroundThrust = True
+		Benjee10_MMSEV = True
+		Benjee10_sharedAssets = True
+		BetterBurnTime = True
+		BetterSRBs = True
+		BobsPanicBox = True
+		BurstPQS = True
+		CactEye = True
+		ChromaWorks = True
+		CommunityCategoryKit = True
+		CommunityResourcePack = True
+		Corvus = True
+		CrewRandR = True
+		CrowdSourcedScience = True
+		CryoEngines = True
+		CryoEnginesExtensions = True
+		CryoEnginesNFAero = True
+		CryoFutureReQuoted = True
+		CryoTanks = True
+		CustomPreLaunchChecks = True
+		DecayingRTGs = True
+		DeployableEngines = True
+		DistantObject = True
+		DMagicOrbitalScience = True
+		DockingCamKURS = True
+		DynamicBatteryStorage = True
+		EasyRobotics = True
+		EasyVesselSwitch = True
+		EnvironmentalVisualEnhancements = True
+		ETT = True
+		ExtraDockingPorts = True
+		FarFutureTechnologies = True
+		Firefly = True
+		FireflyAPI = True
+		Firespitter = True
+		ForScience = True
+		FP_DPSoundFX = True
+		FreeLaunchClamps = True
+		FShangarExtender = True
+		FuelTanksPlus = True
+		GPOSpeedPump = True
+		HabTechProps = True
+		HeatControl = True
+		HGR = True
+		HideEmptyFilters = True
+		HideEmptyTechTreeNodes = True
+		htRobotics = True
+		HUDReplacer = True
+		JanitorsCloset = True
+		JSI = True
+		KAS = True
+		KerbalAtomics = True
+		KerbalAtomicsLH2NTRModSupport = True
+		KerbalChangelog = True
+		KerbalConstructionTime = True
+		KerbalEngineer = True
+		KerbalFX = True
+		Kerbalism = True
+		KerbalismSimplex = True
+		KerbalizedFlagpack = True
+		KerbalJointReinforcement = True
+		KerbalKonstructs = True
+		KerbalLaunchVehicles = True
+		KGEx = True
+		KIS = True
+		Kopernicus = True
+		kOS = True
+		KRASH = True
+		KSCSwitcher = True
+		KSPCommunityFixes = True
+		KSPTextureLoader = True
+		KSPWheel = True
+		LunarTransferPlanner = True
+		MagiCore = True
+		MandatoryRCSPartPack = True
+		MechJeb2 = True
+		MechJebForAll = True
+		MiningExpansion = True
+		MissingHistory = True
+		Mk2Expansion = True
+		Mk2Rebalance = True
+		Mk3Expansion = True
+		MoarFilterExtensionConfigs = True
+		ModularFlightIntegrator = True
+		ModularRocketSystemsLite = True
+		MunksFixes = True
+		NavyFish = True
+		NearFutureAeronautics = True
+		NearFutureConstruction = True
+		NearFutureElectrical = True
+		NearFutureExploration = True
+		NearFutureLaunchVehicles = True
+		NearFutureProps = True
+		NearFuturePropulsion = True
+		NearFutureRovers = True
+		NearFutureSolar = True
+		NearFutureSpacecraft = True
+		NehemiahInc = True
+		Nereid = True
+		NRAP = True
+		OCCULT = True
+		OnDemandFuelCells = True
+		ParallaxContinued = True
+		Parallax_StockPlanetTextures = True
+		Parallax_StockScatterTextures = True
+		Parallax_StockTerrainTextures = True
+		PatchManager = True
+		PlanetaryBaseInc = True
+		QuickBASIC = True
+		RationalResources = True
+		RationalResourcesCompanion = True
+		RCSBuildAid = True
+		RealChute = True
+		RealChuteMaterialExtensions = True
+		REPOSoftTech = True
+		ReStock = True
+		ReStockPlus = True
+		RestockWaterfallExpansion = True
+		RLA_Reborn = True
+		RocketSoundEnhancement = True
+		RocketSoundEnhancementDefault = True
+		SafeChute = True
+		ScaledDecorator = True
+		SCANsat = True
+		Scatterer = True
+		ScattererAtmosphereCache = True
+		Science-Full-Reward = True
+		Science-Full-Transmit = True
+		ScienceLabInfo = True
+		ScienceRelay = True
+		SensiblePumpsCont = True
+		Shabby = True
+		Shaddy = True
+		SHED = True
+		ShipManifest = True
+		ShowFPS = True
+		Sigma = True
+		SmokeScreen = True
+		Sol-Configs = True
+		Sol-Textures = True
+		Sol-VC5-TC = True
+		Sol-Visuals = True
+		SolarPanelDegradation = True
+		SpaceDust = True
+		SpaceTuxIndustries = True
+		SpaceTuxLibrary = True
+		SpaceY = True
+		SPC = True
+		SpeedUnitAnnex = True
+		StageRecovery = True
+		StationPartsExpansionRedux = True
+		StationPartsExpansionReduxIVAs = True
+		StockAlarmClockDisabler = True
+		StockScattererConfigs = True
+		StockVolumetricClouds = True
+		StockWaterfallEffects = True
+		SuperfluousNodesRenoded = True
+		SystemHeat = True
+		SystemHeatBoiloff = True
+		SystemHeatConverters = True
+		SystemHeatFissionEngines = True
+		SystemHeatFissionReactors = True
+		SystemHeatHarvesters = True
+		SystemHeatIonEngines = True
+		TarsierSpaceTech = True
+		TextureReplacer = True
+		TrackingStationEvolved = True
+		Trajectories = True
+		TriggerTech = True
+		TU_MissingHistory = True
+		TU_NearFutureAero = True
+		TweakScale = True
+		TweakScaleCompanion = True
+		UberDyneAstronautics = True
+		UmbraSpaceIndustries = True
+		UniversalStorage2 = True
+		VABOrganizer = True
+		VABOrganizer-Sheepdog = True
+		VABOrganizerJade = True
+		VaporCones = True
+		Waterfall = True
+		WaterfallExtensions = True
+		WaterfallRestock = True
+		WaypointManager = True
+		WildBlueIndustries = True
+		YongeTech_TechTreesPlugin = True
+		zFinal_FilterExtensions = True
+		zKerbalismFFT = True
+		zKerbalismSystemHeat = True
+		ZTheme = True
+		zzz_Deferred = True
+		z_BetterRCS = True
+		[x]_Science! = True
+		999_Scale_Redist.dll = True
+		Blackrack_TUFX.cfg = True
+		FELON.cfg = True
+		FinalFrontier.dat = True
+		ModuleManager.4.2.3.dll = True
+		ModuleManager.Physics = True
+		ModuleManager.TechTree = True
+		toolbar-settings.dat = True
+	}
+	ROSTER
+	{
+		KERBAL
+		{
+			name = Jebediah Kerman
+			gender = Male
+			type = Crew
+			trait = Pilot
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			hasVisorDown = False
+			lightR = 1
+			lightG = 0.5176
+			lightB = 0
+			completedFirstEVA = False
+			suit = Default
+			hero = True
+			INVENTORY
+			{
+				inventory = evaChute,evaJetpack
+				STOREDPARTS
+				{
+					STOREDPART
+					{
+						slotIndex = 0
+						partName = evaChute
+						quantity = 1
+						stackCapacity = 1
+						variantName = 
+						PART
+						{
+							name = evaChute
+							cid = 4293730262
+							uid = 0
+							mid = 0
+							persistentId = 0
+							launchID = 0
+							parent = 0
+							position = 0,0,0
+							rotation = 0,0,0,0
+							mirror = 1,1,1
+							symMethod = Radial
+							istg = 0
+							resPri = 0
+							dstg = 0
+							sqor = -1
+							sepI = 0
+							sidx = -1
+							attm = 0
+							sameVesselCollision = False
+							srfN = None, -1
+							mass = 0.00400000019
+							shielded = False
+							temp = -1
+							tempExt = 0
+							tempExtUnexp = 0
+							staticPressureAtm = 0
+							expt = 0.5
+							state = 0
+							PreFailState = 0
+							attached = True
+							autostrutMode = Off
+							rigidAttachment = False
+							flag = 
+							rTrf = evaChute
+							modCost = 0
+							modMass = 0
+							moduleVariantName = 
+							moduleCargoStackableQuantity = 1
+							EVENTS
+							{
+							}
+							ACTIONS
+							{
+								ToggleSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								SetSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								RemoveSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutOff
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutRoot
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutHeaviest
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutGrandparent
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesEnableFlow
+								{
+									actionGroup = None
+									active = False
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesDisableFlow
+								{
+									actionGroup = None
+									active = False
+									wasActiveBeforePartWasAdjusted = False
+								}
+							}
+							PARTDATA
+							{
+							}
+							MODULE
+							{
+								name = ModuleCargoPart
+								isEnabled = True
+								packedVolume = 10
+								beingAttached = False
+								beingSettled = False
+								reinitResourcesOnStoreInVessel = False
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = FundsKeeper
+								isEnabled = True
+								OriginalCost = 0
+								OriginalResourcesCost = 0
+								OriginalModulesCost = 0
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = StealBackMyFunds
+								isEnabled = True
+								active = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = Module_BobsExplosionDetector
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = USI_ModuleRecycleablePart
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = KOSNameTag
+								isEnabled = True
+								nameTag = 
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = ShipEffectsCollisions
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = AttachedOnEditor
+								isEnabled = True
+								active = True
+								originalPos = (0, 0, 0)
+								originalRotation = (0, 0, 0, 1)
+								moduleVersion = 6
+								stagingEnabled = True
+								userReallyDeactivatedIt = False
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+						}
+					}
+					STOREDPART
+					{
+						slotIndex = 1
+						partName = evaJetpack
+						quantity = 1
+						stackCapacity = 1
+						variantName = 
+						PART
+						{
+							name = evaJetpack
+							cid = 4293730354
+							uid = 0
+							mid = 0
+							persistentId = 0
+							launchID = 0
+							parent = 0
+							position = 0,0,0
+							rotation = 0,0,0,0
+							mirror = 1,1,1
+							symMethod = Radial
+							istg = 0
+							resPri = 2
+							dstg = 0
+							sqor = -1
+							sepI = 0
+							sidx = -1
+							attm = 0
+							sameVesselCollision = False
+							srfN = None, -1
+							mass = 0.0199999996
+							shielded = False
+							temp = -1
+							tempExt = 0
+							tempExtUnexp = 0
+							staticPressureAtm = 0
+							expt = 0.5
+							state = 0
+							PreFailState = 0
+							attached = True
+							autostrutMode = Off
+							rigidAttachment = False
+							flag = 
+							rTrf = evaJetpack
+							modCost = 0
+							modMass = 0
+							moduleVariantName = 
+							moduleCargoStackableQuantity = 1
+							EVENTS
+							{
+							}
+							ACTIONS
+							{
+								ToggleSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								SetSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								RemoveSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutOff
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutRoot
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutHeaviest
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutGrandparent
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesEnableFlow
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesDisableFlow
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+							}
+							PARTDATA
+							{
+							}
+							MODULE
+							{
+								name = ModuleCargoPart
+								isEnabled = True
+								packedVolume = 17
+								beingAttached = False
+								beingSettled = False
+								reinitResourcesOnStoreInVessel = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = FundsKeeper
+								isEnabled = True
+								OriginalCost = 0
+								OriginalResourcesCost = 0
+								OriginalModulesCost = 0
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = StealBackMyFunds
+								isEnabled = True
+								active = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = Module_BobsExplosionDetector
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = USI_ModuleRecycleablePart
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = KOSNameTag
+								isEnabled = True
+								nameTag = 
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = ShipEffectsCollisions
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = AttachedOnEditor
+								isEnabled = True
+								active = True
+								originalPos = (0, 0, 0)
+								originalRotation = (0, 0, 0, 1)
+								moduleVersion = 6
+								stagingEnabled = True
+								userReallyDeactivatedIt = False
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							RESOURCE
+							{
+								name = MonoPropellant
+								amount = 5
+								maxAmount = 5
+								flowState = True
+								isTweakable = False
+								hideFlow = False
+								isVisible = True
+								flowMode = Both
+							}
+						}
+					}
+				}
+			}
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Bill Kerman
+			gender = Male
+			type = Crew
+			trait = Engineer
+			brave = 0.5
+			dumb = 0.800000012
+			badS = False
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			hasVisorDown = False
+			lightR = 1
+			lightG = 0.5176
+			lightB = 0
+			completedFirstEVA = False
+			suit = Default
+			hero = True
+			INVENTORY
+			{
+				inventory = evaChute,evaJetpack
+				STOREDPARTS
+				{
+					STOREDPART
+					{
+						slotIndex = 0
+						partName = evaChute
+						quantity = 1
+						stackCapacity = 1
+						variantName = 
+						PART
+						{
+							name = evaChute
+							cid = 4293730262
+							uid = 0
+							mid = 0
+							persistentId = 0
+							launchID = 0
+							parent = 0
+							position = 0,0,0
+							rotation = 0,0,0,0
+							mirror = 1,1,1
+							symMethod = Radial
+							istg = 0
+							resPri = 0
+							dstg = 0
+							sqor = -1
+							sepI = 0
+							sidx = -1
+							attm = 0
+							sameVesselCollision = False
+							srfN = None, -1
+							mass = 0.00400000019
+							shielded = False
+							temp = -1
+							tempExt = 0
+							tempExtUnexp = 0
+							staticPressureAtm = 0
+							expt = 0.5
+							state = 0
+							PreFailState = 0
+							attached = True
+							autostrutMode = Off
+							rigidAttachment = False
+							flag = 
+							rTrf = evaChute
+							modCost = 0
+							modMass = 0
+							moduleVariantName = 
+							moduleCargoStackableQuantity = 1
+							EVENTS
+							{
+							}
+							ACTIONS
+							{
+								ToggleSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								SetSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								RemoveSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutOff
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutRoot
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutHeaviest
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutGrandparent
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesEnableFlow
+								{
+									actionGroup = None
+									active = False
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesDisableFlow
+								{
+									actionGroup = None
+									active = False
+									wasActiveBeforePartWasAdjusted = False
+								}
+							}
+							PARTDATA
+							{
+							}
+							MODULE
+							{
+								name = ModuleCargoPart
+								isEnabled = True
+								packedVolume = 10
+								beingAttached = False
+								beingSettled = False
+								reinitResourcesOnStoreInVessel = False
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = FundsKeeper
+								isEnabled = True
+								OriginalCost = 0
+								OriginalResourcesCost = 0
+								OriginalModulesCost = 0
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = StealBackMyFunds
+								isEnabled = True
+								active = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = Module_BobsExplosionDetector
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = USI_ModuleRecycleablePart
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = KOSNameTag
+								isEnabled = True
+								nameTag = 
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = ShipEffectsCollisions
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = AttachedOnEditor
+								isEnabled = True
+								active = True
+								originalPos = (0, 0, 0)
+								originalRotation = (0, 0, 0, 1)
+								moduleVersion = 6
+								stagingEnabled = True
+								userReallyDeactivatedIt = False
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+						}
+					}
+					STOREDPART
+					{
+						slotIndex = 1
+						partName = evaJetpack
+						quantity = 1
+						stackCapacity = 1
+						variantName = 
+						PART
+						{
+							name = evaJetpack
+							cid = 4293730354
+							uid = 0
+							mid = 0
+							persistentId = 0
+							launchID = 0
+							parent = 0
+							position = 0,0,0
+							rotation = 0,0,0,0
+							mirror = 1,1,1
+							symMethod = Radial
+							istg = 0
+							resPri = 2
+							dstg = 0
+							sqor = -1
+							sepI = 0
+							sidx = -1
+							attm = 0
+							sameVesselCollision = False
+							srfN = None, -1
+							mass = 0.0199999996
+							shielded = False
+							temp = -1
+							tempExt = 0
+							tempExtUnexp = 0
+							staticPressureAtm = 0
+							expt = 0.5
+							state = 0
+							PreFailState = 0
+							attached = True
+							autostrutMode = Off
+							rigidAttachment = False
+							flag = 
+							rTrf = evaJetpack
+							modCost = 0
+							modMass = 0
+							moduleVariantName = 
+							moduleCargoStackableQuantity = 1
+							EVENTS
+							{
+							}
+							ACTIONS
+							{
+								ToggleSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								SetSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								RemoveSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutOff
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutRoot
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutHeaviest
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutGrandparent
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesEnableFlow
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesDisableFlow
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+							}
+							PARTDATA
+							{
+							}
+							MODULE
+							{
+								name = ModuleCargoPart
+								isEnabled = True
+								packedVolume = 17
+								beingAttached = False
+								beingSettled = False
+								reinitResourcesOnStoreInVessel = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = FundsKeeper
+								isEnabled = True
+								OriginalCost = 0
+								OriginalResourcesCost = 0
+								OriginalModulesCost = 0
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = StealBackMyFunds
+								isEnabled = True
+								active = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = Module_BobsExplosionDetector
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = USI_ModuleRecycleablePart
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = KOSNameTag
+								isEnabled = True
+								nameTag = 
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = ShipEffectsCollisions
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = AttachedOnEditor
+								isEnabled = True
+								active = True
+								originalPos = (0, 0, 0)
+								originalRotation = (0, 0, 0, 1)
+								moduleVersion = 6
+								stagingEnabled = True
+								userReallyDeactivatedIt = False
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							RESOURCE
+							{
+								name = MonoPropellant
+								amount = 5
+								maxAmount = 5
+								flowState = True
+								isTweakable = False
+								hideFlow = False
+								isVisible = True
+								flowMode = Both
+							}
+						}
+					}
+				}
+			}
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Bob Kerman
+			gender = Male
+			type = Crew
+			trait = Scientist
+			brave = 0.300000012
+			dumb = 0.100000001
+			badS = False
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			hasVisorDown = False
+			lightR = 1
+			lightG = 0.5176
+			lightB = 0
+			completedFirstEVA = False
+			suit = Default
+			hero = True
+			INVENTORY
+			{
+				inventory = evaChute,evaJetpack
+				STOREDPARTS
+				{
+					STOREDPART
+					{
+						slotIndex = 0
+						partName = evaChute
+						quantity = 1
+						stackCapacity = 1
+						variantName = 
+						PART
+						{
+							name = evaChute
+							cid = 4293730262
+							uid = 0
+							mid = 0
+							persistentId = 0
+							launchID = 0
+							parent = 0
+							position = 0,0,0
+							rotation = 0,0,0,0
+							mirror = 1,1,1
+							symMethod = Radial
+							istg = 0
+							resPri = 0
+							dstg = 0
+							sqor = -1
+							sepI = 0
+							sidx = -1
+							attm = 0
+							sameVesselCollision = False
+							srfN = None, -1
+							mass = 0.00400000019
+							shielded = False
+							temp = -1
+							tempExt = 0
+							tempExtUnexp = 0
+							staticPressureAtm = 0
+							expt = 0.5
+							state = 0
+							PreFailState = 0
+							attached = True
+							autostrutMode = Off
+							rigidAttachment = False
+							flag = 
+							rTrf = evaChute
+							modCost = 0
+							modMass = 0
+							moduleVariantName = 
+							moduleCargoStackableQuantity = 1
+							EVENTS
+							{
+							}
+							ACTIONS
+							{
+								ToggleSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								SetSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								RemoveSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutOff
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutRoot
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutHeaviest
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutGrandparent
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesEnableFlow
+								{
+									actionGroup = None
+									active = False
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesDisableFlow
+								{
+									actionGroup = None
+									active = False
+									wasActiveBeforePartWasAdjusted = False
+								}
+							}
+							PARTDATA
+							{
+							}
+							MODULE
+							{
+								name = ModuleCargoPart
+								isEnabled = True
+								packedVolume = 10
+								beingAttached = False
+								beingSettled = False
+								reinitResourcesOnStoreInVessel = False
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = FundsKeeper
+								isEnabled = True
+								OriginalCost = 0
+								OriginalResourcesCost = 0
+								OriginalModulesCost = 0
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = StealBackMyFunds
+								isEnabled = True
+								active = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = Module_BobsExplosionDetector
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = USI_ModuleRecycleablePart
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = KOSNameTag
+								isEnabled = True
+								nameTag = 
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = ShipEffectsCollisions
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = AttachedOnEditor
+								isEnabled = True
+								active = True
+								originalPos = (0, 0, 0)
+								originalRotation = (0, 0, 0, 1)
+								moduleVersion = 6
+								stagingEnabled = True
+								userReallyDeactivatedIt = False
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+						}
+					}
+					STOREDPART
+					{
+						slotIndex = 1
+						partName = evaJetpack
+						quantity = 1
+						stackCapacity = 1
+						variantName = 
+						PART
+						{
+							name = evaJetpack
+							cid = 4293730354
+							uid = 0
+							mid = 0
+							persistentId = 0
+							launchID = 0
+							parent = 0
+							position = 0,0,0
+							rotation = 0,0,0,0
+							mirror = 1,1,1
+							symMethod = Radial
+							istg = 0
+							resPri = 2
+							dstg = 0
+							sqor = -1
+							sepI = 0
+							sidx = -1
+							attm = 0
+							sameVesselCollision = False
+							srfN = None, -1
+							mass = 0.0199999996
+							shielded = False
+							temp = -1
+							tempExt = 0
+							tempExtUnexp = 0
+							staticPressureAtm = 0
+							expt = 0.5
+							state = 0
+							PreFailState = 0
+							attached = True
+							autostrutMode = Off
+							rigidAttachment = False
+							flag = 
+							rTrf = evaJetpack
+							modCost = 0
+							modMass = 0
+							moduleVariantName = 
+							moduleCargoStackableQuantity = 1
+							EVENTS
+							{
+							}
+							ACTIONS
+							{
+								ToggleSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								SetSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								RemoveSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutOff
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutRoot
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutHeaviest
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutGrandparent
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesEnableFlow
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesDisableFlow
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+							}
+							PARTDATA
+							{
+							}
+							MODULE
+							{
+								name = ModuleCargoPart
+								isEnabled = True
+								packedVolume = 17
+								beingAttached = False
+								beingSettled = False
+								reinitResourcesOnStoreInVessel = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = FundsKeeper
+								isEnabled = True
+								OriginalCost = 0
+								OriginalResourcesCost = 0
+								OriginalModulesCost = 0
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = StealBackMyFunds
+								isEnabled = True
+								active = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = Module_BobsExplosionDetector
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = USI_ModuleRecycleablePart
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = KOSNameTag
+								isEnabled = True
+								nameTag = 
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = ShipEffectsCollisions
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = AttachedOnEditor
+								isEnabled = True
+								active = True
+								originalPos = (0, 0, 0)
+								originalRotation = (0, 0, 0, 1)
+								moduleVersion = 6
+								stagingEnabled = True
+								userReallyDeactivatedIt = False
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							RESOURCE
+							{
+								name = MonoPropellant
+								amount = 5
+								maxAmount = 5
+								flowState = True
+								isTweakable = False
+								hideFlow = False
+								isVisible = True
+								flowMode = Both
+							}
+						}
+					}
+				}
+			}
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Valentina Kerman
+			gender = Female
+			type = Crew
+			trait = Pilot
+			brave = 0.550000012
+			dumb = 0.400000006
+			badS = True
+			veteran = True
+			tour = False
+			state = Available
+			inactive = False
+			inactiveTimeEnd = 0
+			gExperienced = 0
+			outDueToG = False
+			ToD = 0
+			idx = -1
+			extraXP = 0
+			hasHelmetOn = False
+			hasNeckRingOn = False
+			hasVisorDown = False
+			lightR = 1
+			lightG = 0.5176
+			lightB = 0
+			completedFirstEVA = False
+			suit = Default
+			hero = True
+			INVENTORY
+			{
+				inventory = evaChute,evaJetpack
+				STOREDPARTS
+				{
+					STOREDPART
+					{
+						slotIndex = 0
+						partName = evaChute
+						quantity = 1
+						stackCapacity = 1
+						variantName = 
+						PART
+						{
+							name = evaChute
+							cid = 4293730262
+							uid = 0
+							mid = 0
+							persistentId = 0
+							launchID = 0
+							parent = 0
+							position = 0,0,0
+							rotation = 0,0,0,0
+							mirror = 1,1,1
+							symMethod = Radial
+							istg = 0
+							resPri = 0
+							dstg = 0
+							sqor = -1
+							sepI = 0
+							sidx = -1
+							attm = 0
+							sameVesselCollision = False
+							srfN = None, -1
+							mass = 0.00400000019
+							shielded = False
+							temp = -1
+							tempExt = 0
+							tempExtUnexp = 0
+							staticPressureAtm = 0
+							expt = 0.5
+							state = 0
+							PreFailState = 0
+							attached = True
+							autostrutMode = Off
+							rigidAttachment = False
+							flag = 
+							rTrf = evaChute
+							modCost = 0
+							modMass = 0
+							moduleVariantName = 
+							moduleCargoStackableQuantity = 1
+							EVENTS
+							{
+							}
+							ACTIONS
+							{
+								ToggleSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								SetSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								RemoveSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutOff
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutRoot
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutHeaviest
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutGrandparent
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesEnableFlow
+								{
+									actionGroup = None
+									active = False
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesDisableFlow
+								{
+									actionGroup = None
+									active = False
+									wasActiveBeforePartWasAdjusted = False
+								}
+							}
+							PARTDATA
+							{
+							}
+							MODULE
+							{
+								name = ModuleCargoPart
+								isEnabled = True
+								packedVolume = 10
+								beingAttached = False
+								beingSettled = False
+								reinitResourcesOnStoreInVessel = False
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = FundsKeeper
+								isEnabled = True
+								OriginalCost = 0
+								OriginalResourcesCost = 0
+								OriginalModulesCost = 0
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = StealBackMyFunds
+								isEnabled = True
+								active = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = Module_BobsExplosionDetector
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = USI_ModuleRecycleablePart
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = KOSNameTag
+								isEnabled = True
+								nameTag = 
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = ShipEffectsCollisions
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = AttachedOnEditor
+								isEnabled = True
+								active = True
+								originalPos = (0, 0, 0)
+								originalRotation = (0, 0, 0, 1)
+								moduleVersion = 6
+								stagingEnabled = True
+								userReallyDeactivatedIt = False
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+						}
+					}
+					STOREDPART
+					{
+						slotIndex = 1
+						partName = evaJetpack
+						quantity = 1
+						stackCapacity = 1
+						variantName = 
+						PART
+						{
+							name = evaJetpack
+							cid = 4293730354
+							uid = 0
+							mid = 0
+							persistentId = 0
+							launchID = 0
+							parent = 0
+							position = 0,0,0
+							rotation = 0,0,0,0
+							mirror = 1,1,1
+							symMethod = Radial
+							istg = 0
+							resPri = 2
+							dstg = 0
+							sqor = -1
+							sepI = 0
+							sidx = -1
+							attm = 0
+							sameVesselCollision = False
+							srfN = None, -1
+							mass = 0.0199999996
+							shielded = False
+							temp = -1
+							tempExt = 0
+							tempExtUnexp = 0
+							staticPressureAtm = 0
+							expt = 0.5
+							state = 0
+							PreFailState = 0
+							attached = True
+							autostrutMode = Off
+							rigidAttachment = False
+							flag = 
+							rTrf = evaJetpack
+							modCost = 0
+							modMass = 0
+							moduleVariantName = 
+							moduleCargoStackableQuantity = 1
+							EVENTS
+							{
+							}
+							ACTIONS
+							{
+								ToggleSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								SetSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								RemoveSameVesselInteraction
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutOff
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutRoot
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutHeaviest
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								AutostrutGrandparent
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesEnableFlow
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+								ResourcesDisableFlow
+								{
+									actionGroup = None
+									wasActiveBeforePartWasAdjusted = False
+								}
+							}
+							PARTDATA
+							{
+							}
+							MODULE
+							{
+								name = ModuleCargoPart
+								isEnabled = True
+								packedVolume = 17
+								beingAttached = False
+								beingSettled = False
+								reinitResourcesOnStoreInVessel = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = FundsKeeper
+								isEnabled = True
+								OriginalCost = 0
+								OriginalResourcesCost = 0
+								OriginalModulesCost = 0
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = StealBackMyFunds
+								isEnabled = True
+								active = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = Module_BobsExplosionDetector
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = USI_ModuleRecycleablePart
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = KOSNameTag
+								isEnabled = True
+								nameTag = 
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = ShipEffectsCollisions
+								isEnabled = True
+								stagingEnabled = True
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							MODULE
+							{
+								name = AttachedOnEditor
+								isEnabled = True
+								active = True
+								originalPos = (0, 0, 0)
+								originalRotation = (0, 0, 0, 1)
+								moduleVersion = 6
+								stagingEnabled = True
+								userReallyDeactivatedIt = False
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+								}
+								UPGRADESAPPLIED
+								{
+								}
+							}
+							RESOURCE
+							{
+								name = MonoPropellant
+								amount = 5
+								maxAmount = 5
+								flowState = True
+								isTweakable = False
+								hideFlow = False
+								isVisible = True
+								flowMode = Both
+							}
+						}
+					}
+				}
+			}
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+	}
+	MESSAGESYSTEM
+	{
+		flash = False
+		MESSAGE
+		{
+			title = Screen Message
+			message = <b>KERBALISM WARNING</b>~n~n<color=#FF4500>Mods with known incompatibilities found:</color>~n- KolonyTools~nKerbalism will not run properly with these mods. Please remove them.~n~n<color=#FF4500>Mods with limited compatibility found:</color>~n- [x] Science!~nYou might have problems with these mods. Please consult the FAQ on on kerbalism.github.io~n~n
+			color = 2
+			icon = 5
+			read = False
+		}
+	}
+	VMSNode
+	{
+		VesselModuleSaveFrameworkVesselModuleSave
+		{
+			15462c92-b21e-4005-acb5-7929d312a5e6
+			{
+			}
+			f758d9ce-1528-4b32-9865-7b7c6729422a
+			{
+			}
+			733b4944-32ee-4193-8d81-9281a72e4829
+			{
+			}
+		}
+	}
+}
